@@ -24,6 +24,15 @@
   <img src="https://komarev.com/ghpvc/?username=Umer-Farooq-CS&label=Profile%20Views&color=blue&style=for-the-badge" alt="Profile Views" />
 </p>
 
+<div align="center">
+  <a href="mailto:umerfarooqcs0891@gmail.com">
+    <img src="https://img.shields.io/badge/Hire%20Me-FF3E00?style=for-the-badge&logoColor=white" alt="Hire Me" />
+  </a>
+  <a href="mailto:umerfarooqcs0891@gmail.com">
+    <img src="https://img.shields.io/badge/Contact%20Me-6C63FF?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Me" />
+  </a>
+</div>
+
 ---
 
 ## 🧑‍💻 About Me
@@ -207,9 +216,9 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=radical" alt="GitHub Stats" height="165" />
-  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=radical" alt="GitHub Streak" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=radical" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165" />
+  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight" alt="GitHub Streak" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight" alt="Top Languages" height="165" />
 </div>
 
 ---
@@ -252,7 +261,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ## 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=algolia&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=onestar&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -260,8 +269,22 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ## 📈 Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&hide_border=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true" alt="Contribution Graph" />
 </p>
+
+---
+
+## 🪪 Profile Summary Cards
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Umer-Farooq-CS&theme=tokyonight" alt="Profile Details" />
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Umer-Farooq-CS&theme=tokyonight" alt="Repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Umer-Farooq-CS&theme=tokyonight" alt="Most commit language" />
+  <br/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Umer-Farooq-CS&theme=tokyonight" alt="Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5" alt="Productive time" />
+</div>
 
 ---
 
