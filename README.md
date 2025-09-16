@@ -44,24 +44,47 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Technologies & Frameworks
 ![OpenMP](https://img.shields.io/badge/OpenMP-0096FF?style=for-the-badge)
 ![MPI](https://img.shields.io/badge/MPI-0077B5?style=for-the-badge)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white)
+![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
+![Lex/Yacc](https://img.shields.io/badge/Lex%2FYacc-000000?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST-005571?style=for-the-badge)
+![JavaFX](https://img.shields.io/badge/JavaFX-FF7800?style=for-the-badge&logo=java&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Nsight Systems](https://img.shields.io/badge/Nsight%20Systems-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Nsight Compute](https://img.shields.io/badge/Nsight%20Compute-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ### Domains
-- **HPC & GPU Computing**: CUDA, OpenMP, MPI, Hybrid Programming
-- **Distributed Systems**: Kubernetes, Docker, Cloud-Native Technologies
-- **Quantum Simulation**: Quantum Algorithms, Qiskit, Simulation Tools
-- **Compiler Design**: LLVM, Lex/Yacc, Code Optimization
-- **Full-Stack Development**: React, Node.js, Express, MongoDB
+- **HPC & GPU Computing**: CUDA, OpenMP, MPI, Hybrid Programming, Multi‑GPU
+- **Distributed Systems**: Distributed Hash Tables, Networking, Cloud‑Native
+- **Quantum Simulation**: Quantum Circuits, Qiskit, Simulation
+- **Compiler Design**: LLVM, Lex/Yacc, Parsing, Code Generation
+- **Full‑Stack Development**: React, Next.js, Node, Express, REST
 
 ---
 
@@ -131,6 +154,22 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <a href="https://github.com/Umer-Farooq-CS">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-flat&logo=github&logoColor=white" alt="GitHub" />
   </a>
+</p>
+
+---
+
+## 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=algolia&no-frame=true&margin-w=10&margin-h=10" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&hide_border=true" alt="Contribution Graph" />
 </p>
 
 ---
