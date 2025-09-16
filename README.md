@@ -24,6 +24,16 @@
   <img src="https://komarev.com/ghpvc/?username=Umer-Farooq-CS&label=Profile%20Views&color=blue&style=for-the-badge" alt="Profile Views" />
 </p>
 
+<p align="center">
+  <a href="#-featured-projects"><b>Projects</b></a> •
+  <a href="#-profile-summary-cards"><b>Summary</b></a> •
+  <a href="Umer-Farooq_CV.pdf"><b>Resume</b></a> •
+  <a href="Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
+  <a href="Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
+  <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a> •
+  <a href="#-technical-skills"><b>Stack</b></a>
+</p>
+
 <div align="center">
   <a href="mailto:umerfarooqcs0891@gmail.com">
     <img src="https://img.shields.io/badge/Hire%20Me-FF3E00?style=for-the-badge&logoColor=white" alt="Hire Me" />
@@ -270,6 +280,42 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true" alt="Contribution Graph" width="100%" />
+</p>
+
+---
+
+## 🧊 3D Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Umer-Farooq-CS/Umer-Farooq-CS/output/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
+</p>
+
+---
+
+## 🧩 Holopin Badges
+
+<p align="center">
+  <a href="https://holopin.io/@umerfarooq">
+    <img src="https://holopin.me/umerfarooq" alt="Holopin Badges" />
+  </a>
+</p>
+
+---
+
+## 🌍 Visitor Map
+
+<p align="center">
+  <a href="https://clustrmaps.com/site/1b9f9" title="Visit tracker">
+    <img src="https://clustrmaps.com/map_v2.png?cl=0d47a1&w=700&t=tt&d=auto&co=ffffff&ct=1d1f21&cmo=f44336&cmn=4caf50&ct=ffffff&d=Umer-Farooq-CS" alt="Visitor Map" />
+  </a>
+</p>
+
+---
+
+## 🏅 Metrics (compact)
+
+<p align="center">
+  <img src="https://metrics.lecoq.io/Umer-Farooq-CS?template=classic&isocalendar=1&languages=1&isocalendar.duration=full-year&languages.limit=8&languages.threshold=0%25&languages.other=true&config.timezone=Asia%2FKarachi" alt="Metrics" width="100%" />
 </p>
 
 ---
