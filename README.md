@@ -56,7 +56,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ![MPI](https://img.shields.io/badge/MPI-0077B5?style=for-the-badge)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white)
 ![LLVM](https://img.shields.io/badge/LLVM-262D3A?style=for-the-badge&logo=llvm&logoColor=white)
 ![Lex/Yacc](https://img.shields.io/badge/Lex%2FYacc-000000?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -102,25 +101,88 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ## 🚀 Featured Projects
 
 ### High-Performance Computing
-| Project | Description | Technologies |
-|---------|-------------|-------------|
-| **[Parallel Tensor Network Quantum Simulator](https://github.com/Umer-Farooq-CS/Q-Tensor)** | Enhanced quantum circuit simulator using hybrid MPI/OpenMP and GPU acceleration | C++, CUDA, OpenMP, MPI |
-| **[MNIST Classification with GPU Acceleration](https://github.com/Umer-Farooq-CS/MNIST-Classification)** | Optimized neural network with 6x faster inference using Tensor Cores and CUDA | CUDA, Python, Nsight Systems |
-| **[GPU-Accelerated Canny Edge Detection](https://github.com/Umer-Farooq-CS/Canny-Edge-Detector)** | Canny edge detector in CUDA with 3.5x speedup over CPU implementation | C++, CUDA |
-| **[LL(1) Parser Toolkit](https://github.com/Umer-Farooq-CS/LL1-Parser-Plus)** | LL(1) parser toolkit with grammar processing and parsing capabilities | C |
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="33%">Project</th>
+      <th align="left" width="47%">Description</th>
+      <th align="left" width="20%">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Q-Tensor"><strong>Parallel Tensor Network Quantum Simulator</strong></a></td>
+      <td>Enhanced quantum circuit simulator using hybrid MPI/OpenMP and GPU acceleration</td>
+      <td>C++, CUDA, OpenMP, MPI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/MNIST-Classification"><strong>MNIST Classification (GPU)</strong></a></td>
+      <td>Optimized NN with ~6× faster inference via Tensor Cores, FP16, CUDA kernels, streams</td>
+      <td>CUDA, Python, Nsight</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector"><strong>GPU-Accelerated Canny Edge</strong></a></td>
+      <td>CUDA Canny with optimized memory access; ~3.5× over CPU</td>
+      <td>C++, CUDA</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/LL1-Parser-Plus"><strong>LL(1) Parser Toolkit</strong></a></td>
+      <td>Grammar processing and parsing toolkit</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+  </table>
 
 ### Distributed Systems & Networking
-| Project | Description | Technologies |
-|---------|-------------|-------------|
-| **Ring DHT with IPFS Integration** | Distributed hash table with circular linked list architecture and IPFS integration | C++, Data Structures, SHA-1, B-Trees |
-| **Doodle Dash – Multiplayer Drawing Game** | Client-server drawing and guessing game with real-time synchronization | C++, SFML, TCP Sockets, pthreads |
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="33%">Project</th>
+      <th align="left" width="47%">Description</th>
+      <th align="left" width="20%">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Ring DHT with IPFS Integration</strong></td>
+      <td>Distributed hash table with circular linked list routing and IPFS storage</td>
+      <td>C++, SHA‑1, B‑Trees</td>
+    </tr>
+    <tr>
+      <td><strong>Doodle Dash – Multiplayer Drawing</strong></td>
+      <td>Client‑server drawing and guessing with custom reliable TCP and multi‑threaded clients</td>
+      <td>C++, SFML, TCP, pthreads</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Full-Stack Development
-| Project | Description | Technologies |
-|---------|-------------|-------------|
-| **[Harmoniq Audio Library Explorer](https://github.com/Umer-Farooq-CS/Harmoniq)** | Full-stack audio library explorer with Express backend and React frontend | JavaScript, React, Node.js, Express, PostgreSQL |
-| **DJ Web Application** | Real-time music streaming interface with responsive React front-end | React, Vite, Node.js, Express, MongoDB |
-| **Pac-Man Game with Multi-threaded Ghost AI** | Pac-Man clone with custom graphics and multi-threaded ghost movement | C++, SFML, pthreads |
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="33%">Project</th>
+      <th align="left" width="47%">Description</th>
+      <th align="left" width="20%">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Harmoniq"><strong>Harmoniq Audio Library Explorer</strong></a></td>
+      <td>Express backend + React frontend for audio library exploration</td>
+      <td>JS, React, Node, Express, PostgreSQL</td>
+    </tr>
+    <tr>
+      <td><strong>DJ Web Application</strong></td>
+      <td>Real‑time music streaming UI with responsive front‑end</td>
+      <td>React, Vite, Node, Express, MongoDB</td>
+    </tr>
+    <tr>
+      <td><strong>Pac‑Man (Multi‑threaded Ghost AI)</strong></td>
+      <td>Custom graphics, collision detection, power‑ups, threaded ghost logic</td>
+      <td>C++, SFML, pthreads</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Pinned Repositories
 
