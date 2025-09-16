@@ -254,17 +254,25 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ## 📫 Let's Connect!
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/umer-farooq-a0838a2a1/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:umerfarooqcs0891@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/Umer-Farooq-CS">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-flat&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</p>
+<div align="center">
+  <h3>🚀 Ready to collaborate? Let's build something amazing together!</h3>
+  
+  <p>
+    <a href="https://www.linkedin.com/in/umer-farooq-a0838a2a1/">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn" height="40" />
+    </a>
+    <a href="mailto:umerfarooqcs0891@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=D14836" alt="Email" height="40" />
+    </a>
+    <a href="https://github.com/Umer-Farooq-CS">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=100000" alt="GitHub" height="40" />
+    </a>
+  </p>
+  
+  <p>
+    <strong>💼 Available for:</strong> Full-time positions • Freelance projects • Open source contributions • Technical consulting
+  </p>
+</div>
 
 ---
 
@@ -284,41 +292,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 🧊 3D Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Umer-Farooq-CS/Umer-Farooq-CS/output/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
-</p>
-
----
-
-## 🧩 Holopin Badges
-
-<p align="center">
-  <a href="https://holopin.io/@umerfarooq">
-    <img src="https://holopin.me/umerfarooq" alt="Holopin Badges" />
-  </a>
-</p>
-
----
-
-## 🌍 Visitor Map
-
-<p align="center">
-  <a href="https://clustrmaps.com/site/1b9f9" title="Visit tracker">
-    <img src="https://clustrmaps.com/map_v2.png?cl=0d47a1&w=700&t=tt&d=auto&co=ffffff&ct=1d1f21&cmo=f44336&cmn=4caf50&ct=ffffff&d=Umer-Farooq-CS" alt="Visitor Map" />
-  </a>
-</p>
-
----
-
-## 🏅 Metrics (compact)
-
-<p align="center">
-  <img src="https://metrics.lecoq.io/Umer-Farooq-CS?template=classic&isocalendar=1&languages=1&isocalendar.duration=full-year&languages.limit=8&languages.threshold=0%25&languages.other=true&config.timezone=Asia%2FKarachi" alt="Metrics" width="100%" />
-</p>
-
----
 
 ## 🪪 Profile Summary Cards
 
