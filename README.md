@@ -8,6 +8,10 @@
 <h3 align="center">HPC & GPU Computing Specialist | Distributed Systems Engineer | Full-Stack Developer</h3>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=800&lines=High-performance+computing+%26+GPU+optimization;Parallel+%26+distributed+systems;Compilers+%26+language+design;Interactive+full-stack+applications;Always+learning%2C+always+building" alt="Typing Intro" />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/umer-farooq-a0838a2a1/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -67,6 +71,13 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
+### Quantum Libraries
+![Qiskit](https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge)
+![PennyLane](https://img.shields.io/badge/PennyLane-0B3A2E?style=for-the-badge)
+![Cirq](https://img.shields.io/badge/Cirq-4285F4?style=for-the-badge)
+![JAX](https://img.shields.io/badge/JAX-0052CC?style=for-the-badge)
+![OpenQASM](https://img.shields.io/badge/OpenQASM-000000?style=for-the-badge)
+
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -110,6 +121,24 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 | **[Harmoniq Audio Library Explorer](https://github.com/Umer-Farooq-CS/Harmoniq)** | Full-stack audio library explorer with Express backend and React frontend | JavaScript, React, Node.js, Express, PostgreSQL |
 | **DJ Web Application** | Real-time music streaming interface with responsive React front-end | React, Vite, Node.js, Express, MongoDB |
 | **Pac-Man Game with Multi-threaded Ghost AI** | Pac-Man clone with custom graphics and multi-threaded ghost movement | C++, SFML, pthreads |
+
+### Pinned Repositories
+
+<div align="center">
+  <a href="https://github.com/Umer-Farooq-CS/Q-Tensor">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Q-Tensor&theme=radical" alt="Q-Tensor" />
+  </a>
+  <a href="https://github.com/Umer-Farooq-CS/MNIST-Classification">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=MNIST-Classification&theme=radical" alt="MNIST-Classification" />
+  </a>
+  <br/>
+  <a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Canny-Edge-Detector&theme=radical" alt="Canny-Edge-Detector" />
+  </a>
+  <a href="https://github.com/Umer-Farooq-CS/Harmoniq">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Harmoniq&theme=radical" alt="Harmoniq" />
+  </a>
+</div>
 
 ---
 
