@@ -217,7 +217,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=7200" alt="GitHub Stats" height="170" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly" alt="GitHub Streak" height="170" />
+  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&v=2" alt="GitHub Streak" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=7200" alt="Top Languages" height="170" />
 </div>
 
