@@ -119,53 +119,42 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ## 🚀 Explore Projects
 
-<details>
-  <summary>
-    <img src="https://img.shields.io/badge/HPC_%26_GPU-0ea5e9?style=for-the-badge&logo=nvidia&logoColor=white" alt="HPC & GPU" />
-  </summary>
+### HPC & GPU
+<div align="center">
+  <a href="https://github.com/Umer-Farooq-CS/Q-Tensor">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Q-Tensor&theme=tokyonight" alt="Q-Tensor" />
+  </a>
+  <a href="https://github.com/Umer-Farooq-CS/MNIST-Classification">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=MNIST-Classification&theme=tokyonight" alt="MNIST-Classification" />
+  </a>
+  <br/>
+  <a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Canny-Edge-Detector&theme=tokyonight" alt="Canny-Edge-Detector" />
+  </a>
+</div>
 
-  - [Parallel Tensor Network Quantum Simulator](https://github.com/Umer-Farooq-CS/Q-Tensor)
-    - Hybrid MPI/OpenMP with CUDA acceleration; METIS partitioning; scalable beyond 20+ qubits.
-    - Tech: C++, CUDA, OpenMP, MPI
-  - [MNIST Classification (GPU)](https://github.com/Umer-Farooq-CS/MNIST-Classification)
-    - ~6× faster inference (Tensor Cores, FP16, shared mem, kernel fusion, streams); profiled with Nsight.
-    - Tech: CUDA, Python, Nsight
-  - [GPU‑Accelerated Canny Edge](https://github.com/Umer-Farooq-CS/Canny-Edge-Detector)
-    - Optimized memory access; ~3.5× over CPU.
-    - Tech: C++, CUDA
+### Distributed Systems
+<div align="center">
+  <a href="https://github.com/Umer-Farooq-CS/DHT-IPFS" title="Ring DHT with IPFS">
+    <img src="https://img.shields.io/badge/Ring_DHT_with_IPFS-22c55e?style=for-the-badge" alt="Ring DHT with IPFS" />
+  </a>
+  <a href="#" title="Doodle Dash – Multiplayer Drawing">
+    <img src="https://img.shields.io/badge/Doodle_Dash_Multiplayer-22c55e?style=for-the-badge" alt="Doodle Dash" />
+  </a>
+</div>
 
-</details>
-
-<details>
-  <summary>
-    <img src="https://img.shields.io/badge/Distributed_Systems-22c55e?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Distributed Systems" />
-  </summary>
-
-  - Ring DHT with IPFS Integration
-    - Circular routing with linked lists; SHA‑1 addressing; B‑Tree storage; IPFS for distributed files.
-    - Tech: C++, SHA‑1, B‑Trees
-  - Doodle Dash – Multiplayer Drawing
-    - Client‑server drawing and guessing game with reliable TCP, multi‑threaded clients, graceful shutdown.
-    - Tech: C++, SFML, TCP, pthreads
-
-</details>
-
-<details>
-  <summary>
-    <img src="https://img.shields.io/badge/Full%E2%80%91Stack-8b5cf6?style=for-the-badge&logo=react&logoColor=white" alt="Full‑Stack" />
-  </summary>
-
-  - Harmoniq Audio Library Explorer
-    - Express backend + React frontend for audio library exploration.
-    - Tech: JS, React, Node, Express, PostgreSQL
-  - DJ Web Application
-    - Real‑time music streaming UI with responsive front‑end.
-    - Tech: React, Vite, Node, Express, MongoDB
-  - Pac‑Man (Multi‑threaded Ghost AI)
-    - Custom graphics, collision detection, power‑ups, threaded ghost logic.
-    - Tech: C++, SFML, pthreads
-
-</details>
+### Full‑Stack
+<div align="center">
+  <a href="https://github.com/Umer-Farooq-CS/Harmoniq">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Harmoniq&theme=tokyonight" alt="Harmoniq" />
+  </a>
+  <a href="#" title="DJ Web Application">
+    <img src="https://img.shields.io/badge/DJ_Web_App-8b5cf6?style=for-the-badge" alt="DJ Web App" />
+  </a>
+  <a href="#" title="Pac‑Man (Multi‑threaded Ghost AI)">
+    <img src="https://img.shields.io/badge/Pac%E2%80%91Man_AI-8b5cf6?style=for-the-badge" alt="Pac‑Man AI" />
+  </a>
+</div>
 
 ### Pinned Repositories
 
