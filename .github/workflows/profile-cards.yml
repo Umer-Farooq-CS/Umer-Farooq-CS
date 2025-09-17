@@ -18,6 +18,5 @@ jobs:
           USERNAME: Umer-Farooq-CS
           UTC_OFFSET: 5
           BRANCH_NAME: output
-          EXCLUDED: ""
           AUTO_PUSH: "true"
 
