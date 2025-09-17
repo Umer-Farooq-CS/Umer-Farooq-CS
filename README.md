@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <a href="#-featured-projects"><b>Projects</b></a> •
+  <a href="docs/projects/"><b>Projects</b></a> •
   <a href="#-profile-summary-cards"><b>Summary</b></a> •
   <a href="docs/Umer-Farooq_CV.pdf"><b>CV</b></a> •
   <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
@@ -117,91 +117,19 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Explore Projects
 
-### High-Performance Computing
-<table>
-  <thead>
-    <tr>
-      <th align="left" width="33%">Project</th>
-      <th align="left" width="47%">Description</th>
-      <th align="left" width="20%">Technologies</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/Q-Tensor"><strong>Parallel Tensor Network Quantum Simulator</strong></a></td>
-      <td>Enhanced quantum circuit simulator using hybrid MPI/OpenMP and GPU acceleration</td>
-      <td>C++, CUDA, OpenMP, MPI</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/MNIST-Classification"><strong>MNIST Classification (GPU)</strong></a></td>
-      <td>Optimized NN with ~6× faster inference via Tensor Cores, FP16, CUDA kernels, streams</td>
-      <td>CUDA, Python, Nsight</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector"><strong>GPU-Accelerated Canny Edge</strong></a></td>
-      <td>CUDA Canny with optimized memory access; ~3.5× over CPU</td>
-      <td>C++, CUDA</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/LL1-Parser-Plus"><strong>LL(1) Parser Toolkit</strong></a></td>
-      <td>Grammar processing and parsing toolkit</td>
-      <td>C</td>
-    </tr>
-  </tbody>
-  </table>
-
-### Distributed Systems & Networking
-<table>
-  <thead>
-    <tr>
-      <th align="left" width="33%">Project</th>
-      <th align="left" width="47%">Description</th>
-      <th align="left" width="20%">Technologies</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Ring DHT with IPFS Integration</strong></td>
-      <td>Distributed hash table with circular linked list routing and IPFS storage</td>
-      <td>C++, SHA‑1, B‑Trees</td>
-    </tr>
-    <tr>
-      <td><strong>Doodle Dash – Multiplayer Drawing</strong></td>
-      <td>Client‑server drawing and guessing with custom reliable TCP and multi‑threaded clients</td>
-      <td>C++, SFML, TCP, pthreads</td>
-    </tr>
-  </tbody>
-</table>
-
-### Full-Stack Development
-<table>
-  <thead>
-    <tr>
-      <th align="left" width="33%">Project</th>
-      <th align="left" width="47%">Description</th>
-      <th align="left" width="20%">Technologies</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/Harmoniq"><strong>Harmoniq Audio Library Explorer</strong></a></td>
-      <td>Express backend + React frontend for audio library exploration</td>
-      <td>JS, React, Node, Express, PostgreSQL</td>
-    </tr>
-    <tr>
-      <td><strong>DJ Web Application</strong></td>
-      <td>Real‑time music streaming UI with responsive front‑end</td>
-      <td>React, Vite, Node, Express, MongoDB</td>
-    </tr>
-    <tr>
-      <td><strong>Pac‑Man (Multi‑threaded Ghost AI)</strong></td>
-      <td>Custom graphics, collision detection, power‑ups, threaded ghost logic</td>
-      <td>C++, SFML, pthreads</td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
+  <a href="docs/projects/hpc.md" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/HPC_%26_GPU-0ea5e9?style=for-the-badge&logo=nvidia&logoColor=white" alt="HPC & GPU" />
+  </a>
+  <a href="docs/projects/distributed.md" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Distributed_Systems-22c55e?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Distributed Systems" />
+  </a>
+  <a href="docs/projects/fullstack.md" style="text-decoration:none;">
+    <img src="https://img.shields.io/badge/Full%E2%80%91Stack-8b5cf6?style=for-the-badge&logo=react&logoColor=white" alt="Full‑Stack" />
+  </a>
+</div>
 
 ### Pinned Repositories
 
