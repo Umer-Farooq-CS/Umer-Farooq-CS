@@ -119,17 +119,53 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ## 🚀 Explore Projects
 
-<div align="center">
-  <a href="docs/projects/hpc.md" style="text-decoration:none;">
+<details>
+  <summary>
     <img src="https://img.shields.io/badge/HPC_%26_GPU-0ea5e9?style=for-the-badge&logo=nvidia&logoColor=white" alt="HPC & GPU" />
-  </a>
-  <a href="docs/projects/distributed.md" style="text-decoration:none;">
+  </summary>
+
+  - [Parallel Tensor Network Quantum Simulator](https://github.com/Umer-Farooq-CS/Q-Tensor)
+    - Hybrid MPI/OpenMP with CUDA acceleration; METIS partitioning; scalable beyond 20+ qubits.
+    - Tech: C++, CUDA, OpenMP, MPI
+  - [MNIST Classification (GPU)](https://github.com/Umer-Farooq-CS/MNIST-Classification)
+    - ~6× faster inference (Tensor Cores, FP16, shared mem, kernel fusion, streams); profiled with Nsight.
+    - Tech: CUDA, Python, Nsight
+  - [GPU‑Accelerated Canny Edge](https://github.com/Umer-Farooq-CS/Canny-Edge-Detector)
+    - Optimized memory access; ~3.5× over CPU.
+    - Tech: C++, CUDA
+
+</details>
+
+<details>
+  <summary>
     <img src="https://img.shields.io/badge/Distributed_Systems-22c55e?style=for-the-badge&logo=apachekafka&logoColor=white" alt="Distributed Systems" />
-  </a>
-  <a href="docs/projects/fullstack.md" style="text-decoration:none;">
+  </summary>
+
+  - Ring DHT with IPFS Integration
+    - Circular routing with linked lists; SHA‑1 addressing; B‑Tree storage; IPFS for distributed files.
+    - Tech: C++, SHA‑1, B‑Trees
+  - Doodle Dash – Multiplayer Drawing
+    - Client‑server drawing and guessing game with reliable TCP, multi‑threaded clients, graceful shutdown.
+    - Tech: C++, SFML, TCP, pthreads
+
+</details>
+
+<details>
+  <summary>
     <img src="https://img.shields.io/badge/Full%E2%80%91Stack-8b5cf6?style=for-the-badge&logo=react&logoColor=white" alt="Full‑Stack" />
-  </a>
-</div>
+  </summary>
+
+  - Harmoniq Audio Library Explorer
+    - Express backend + React frontend for audio library exploration.
+    - Tech: JS, React, Node, Express, PostgreSQL
+  - DJ Web Application
+    - Real‑time music streaming UI with responsive front‑end.
+    - Tech: React, Vite, Node, Express, MongoDB
+  - Pac‑Man (Multi‑threaded Ghost AI)
+    - Custom graphics, collision detection, power‑ups, threaded ghost logic.
+    - Tech: C++, SFML, pthreads
+
+</details>
 
 ### Pinned Repositories
 
