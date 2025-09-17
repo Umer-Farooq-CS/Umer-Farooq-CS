@@ -31,7 +31,7 @@
   <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
   <a href="docs/Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
   <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a> •
-  <a href="#%F0%9F%94%A7-technical-skills"><b>Stack</b></a>
+  <a href="#-technical-skills"><b>Stack</b></a>
 </p>
 
 <div align="center">
