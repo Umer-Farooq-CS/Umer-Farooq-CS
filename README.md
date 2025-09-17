@@ -8,7 +8,7 @@
 <h3 align="center">HPC & GPU Computing Specialist | Distributed Systems Engineer | Full-Stack Developer</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=800&lines=High-Performance+Computing+%26+GPU+optimization;Parallel+%26+Distributed+Systems;Compilers+%26+Language+Design;Interactive+Full-Stack+Applications;Always+Learning%2C+Always+Building" alt="Typing Intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=800&lines=High-Performance+Computing+%26+GPU+Optimization;Parallel+%26+Distributed+Systems;Compilers+%26+Language+Design;Interactive+Full-Stack+Applications;Always+Learning%2C+Always+Building" alt="Typing Intro" />
 </p>
 
 <p align="center">
