@@ -27,9 +27,9 @@
 <p align="center">
   <a href="#-featured-projects"><b>Projects</b></a> •
   <a href="#-profile-summary-cards"><b>Summary</b></a> •
-  <a href="Umer-Farooq_CV.pdf"><b>CV</b></a> •
-  <a href="Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
-  <a href="Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
+  <a href="docs/Umer-Farooq_CV.pdf"><b>CV</b></a> •
+  <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
+  <a href="docs/Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
   <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a> •
   <a href="#-technical-skills"><b>Stack</b></a>
 </p>
