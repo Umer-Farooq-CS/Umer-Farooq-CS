@@ -25,13 +25,13 @@
 </p>
 
 <p align="center">
-  <a href="docs/projects/"><b>Projects</b></a> •
+  <a href="#-featured-projects"><b>Projects</b></a> •
   <a href="#-profile-summary-cards"><b>Summary</b></a> •
   <a href="docs/Umer-Farooq_CV.pdf"><b>CV</b></a> •
   <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
   <a href="docs/Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
   <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a> •
-  <a href="#-technical-skills"><b>Stack</b></a>
+  <a href="#technical-skills"><b>Stack</b></a>
 </p>
 
 <div align="center">
@@ -56,6 +56,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
+<a id="technical-skills"></a>
 ## 🛠️ Technical Skills
 
 ### Programming Languages
@@ -117,44 +118,91 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 🚀 Explore Projects
+## 🚀 Featured Projects
 
-### HPC & GPU
-<div align="center">
-  <a href="https://github.com/Umer-Farooq-CS/Q-Tensor">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Q-Tensor&theme=tokyonight" alt="Q-Tensor" />
-  </a>
-  <a href="https://github.com/Umer-Farooq-CS/MNIST-Classification">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=MNIST-Classification&theme=tokyonight" alt="MNIST-Classification" />
-  </a>
-  <br/>
-  <a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Canny-Edge-Detector&theme=tokyonight" alt="Canny-Edge-Detector" />
-  </a>
-</div>
+### High-Performance Computing
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="33%">Project</th>
+      <th align="left" width="47%">Description</th>
+      <th align="left" width="20%">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Q-Tensor"><strong>Parallel Tensor Network Quantum Simulator</strong></a></td>
+      <td>Enhanced quantum circuit simulator using hybrid MPI/OpenMP and GPU acceleration</td>
+      <td>C++, CUDA, OpenMP, MPI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/MNIST-Classification"><strong>MNIST Classification (GPU)</strong></a></td>
+      <td>Optimized NN with ~6× faster inference via Tensor Cores, FP16, CUDA kernels, streams</td>
+      <td>CUDA, Python, Nsight</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector"><strong>GPU-Accelerated Canny Edge</strong></a></td>
+      <td>CUDA Canny with optimized memory access; ~3.5× over CPU</td>
+      <td>C++, CUDA</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/LL1-Parser-Plus"><strong>LL(1) Parser Toolkit</strong></a></td>
+      <td>Grammar processing and parsing toolkit</td>
+      <td>C</td>
+    </tr>
+  </tbody>
+  </table>
 
-### Distributed Systems
-<div align="center">
-  <a href="https://github.com/Umer-Farooq-CS/DHT-IPFS" title="Ring DHT with IPFS">
-    <img src="https://img.shields.io/badge/Ring_DHT_with_IPFS-22c55e?style=for-the-badge" alt="Ring DHT with IPFS" />
-  </a>
-  <a href="#" title="Doodle Dash – Multiplayer Drawing">
-    <img src="https://img.shields.io/badge/Doodle_Dash_Multiplayer-22c55e?style=for-the-badge" alt="Doodle Dash" />
-  </a>
-</div>
+### Distributed Systems & Networking
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="33%">Project</th>
+      <th align="left" width="47%">Description</th>
+      <th align="left" width="20%">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Ring DHT with IPFS Integration</strong></td>
+      <td>Distributed hash table with circular linked list routing and IPFS storage</td>
+      <td>C++, SHA‑1, B‑Trees</td>
+    </tr>
+    <tr>
+      <td><strong>Doodle Dash – Multiplayer Drawing</strong></td>
+      <td>Client‑server drawing and guessing with custom reliable TCP and multi‑threaded clients</td>
+      <td>C++, SFML, TCP, pthreads</td>
+    </tr>
+  </tbody>
+</table>
 
-### Full‑Stack
-<div align="center">
-  <a href="https://github.com/Umer-Farooq-CS/Harmoniq">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Umer-Farooq-CS&repo=Harmoniq&theme=tokyonight" alt="Harmoniq" />
-  </a>
-  <a href="#" title="DJ Web Application">
-    <img src="https://img.shields.io/badge/DJ_Web_App-8b5cf6?style=for-the-badge" alt="DJ Web App" />
-  </a>
-  <a href="#" title="Pac‑Man (Multi‑threaded Ghost AI)">
-    <img src="https://img.shields.io/badge/Pac%E2%80%91Man_AI-8b5cf6?style=for-the-badge" alt="Pac‑Man AI" />
-  </a>
-</div>
+### Full-Stack Development
+<table>
+  <thead>
+    <tr>
+      <th align="left" width="33%">Project</th>
+      <th align="left" width="47%">Description</th>
+      <th align="left" width="20%">Technologies</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Harmoniq"><strong>Harmoniq Audio Library Explorer</strong></a></td>
+      <td>Express backend + React frontend for audio library exploration</td>
+      <td>JS, React, Node, Express, PostgreSQL</td>
+    </tr>
+    <tr>
+      <td><strong>DJ Web Application</strong></td>
+      <td>Real‑time music streaming UI with responsive front‑end</td>
+      <td>React, Vite, Node, Express, MongoDB</td>
+    </tr>
+    <tr>
+      <td><strong>Pac‑Man (Multi‑threaded Ghost AI)</strong></td>
+      <td>Custom graphics, collision detection, power‑ups, threaded ghost logic</td>
+      <td>C++, SFML, pthreads</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Pinned Repositories
 

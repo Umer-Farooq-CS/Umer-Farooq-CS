@@ -1,0 +1,23 @@
+name: Generate profile summary cards
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # daily 01:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: Umer-Farooq-CS
+          UTC_OFFSET: 5
+          BRANCH_NAME: output
+          EXCLUDED: ""
+          AUTO_PUSH: "true"
+
