@@ -277,11 +277,25 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 🏆 Trophies
+## 🏆 Achievements & Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=onestar&no-frame=true&margin-w=10&margin-h=10&cache_seconds=1800&v=1" alt="GitHub Trophies" />
 </p>
+
+### 🎯 GitHub Achievements
+<p align="center">
+  <img src="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/blob/output/github-achievements.svg" alt="GitHub Achievements" width="100%" />
+</p>
+
+### 🏅 Skill Badges
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="divider" width="100%"/>
+</p>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Umer-Farooq-CS&theme=algolia&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" alt="GitHub Streak" />
+</div>
 
 ---
 
