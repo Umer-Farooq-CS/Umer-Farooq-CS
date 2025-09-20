@@ -23,48 +23,4 @@ jobs:
           UTC_OFFSET: 5
           BRANCH_NAME: output
           AUTO_PUSH: "true"
-      - name: Generate GitHub achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-achievements.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: Umer-Farooq-CS
-          achievements: >-
-            [
-              {
-                "id": "achievement-pull-request",
-                "name": "Pull Request Pro",
-                "description": "Opened 10+ pull requests",
-                "icon": "git-pull-request",
-                "color": "blue"
-              },
-              {
-                "id": "achievement-issue",
-                "name": "Issue Hunter",
-                "description": "Closed 10+ issues",
-                "icon": "git-merge",
-                "color": "green"
-              },
-              {
-                "id": "achievement-commit",
-                "name": "Commit Master",
-                "description": "Made 100+ commits",
-                "icon": "git-commit",
-                "color": "yellow"
-              },
-              {
-                "id": "achievement-star",
-                "name": "Star Collector",
-                "description": "Earned 10+ stars",
-                "icon": "star",
-                "color": "orange"
-              }
-            ]
-          achievements_threshold: 0
-          achievements_show_progress: true
-          achievements_compact: true
-          achievements_align: center
-          achievements_animations: true
-          achievements_display: compact
-          config_timezone: Asia/Karachi
 
