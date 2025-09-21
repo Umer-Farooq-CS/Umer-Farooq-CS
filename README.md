@@ -330,7 +330,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 🚀 Live Status & Activity
+## Live Status & Activity
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Available%20for%20Work-green?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
@@ -338,7 +338,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://img.shields.io/badge/Currently%20Working-HPC%20%26%20GPU%20Projects-orange?style=for-the-badge&logo=code&logoColor=white" alt="Current Work" />
 </p>
 
-## 🎯 Skill Proficiency
+## Skill Proficiency
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2FC%2B%2B-Expert-red?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++" />
@@ -348,14 +348,14 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://img.shields.io/badge/React-Learning-blue?style=for-the-badge&logo=react&logoColor=white" alt="React" />
 </p>
 
-## 📈 Current Focus & Learning
+## Current Focus & Learning
 
 - **Active Projects**: GPU-accelerated quantum simulation, distributed systems optimization
 - **Learning**: Advanced CUDA programming, quantum computing algorithms
 - **Interests**: High-performance computing, compiler design, distributed systems
 - **Goals**: Contributing to open-source HPC projects, building scalable systems
 
-## 🎮 Interactive Elements
+## Interactive Elements
 
 <!-- GitHub Readme Jokes -->
 <div align="center">
@@ -367,7 +367,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://random-memer.herokuapp.com/" alt="Random Dev Meme" width="400" />
 </div>
 
-## 🏆 Achievements & Milestones
+## Achievements & Milestones
 
 <p align="center">
   <img src="https://img.shields.io/badge/Dean's%20List%20Award-Spring%202023-gold?style=for-the-badge&logo=trophy&logoColor=white" alt="Dean's List" />
@@ -376,19 +376,19 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://img.shields.io/badge/80%%20Repeat%20Customers-Success-purple?style=for-the-badge&logo=repeat&logoColor=white" alt="Repeat Customers" />
 </p>
 
-## 🎵 What I'm Listening To
+## What I'm Listening To
 
 <div align="center">
   <img src="https://spotify-github-profile.vercel.app/api/spotify" alt="Spotify" />
 </div>
 
-## 📊 Weekly Development Breakdown
+## Weekly Development Breakdown
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Umer-Farooq-CS&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats" />
 </div>
 
-## 🎨 Fun Facts
+## Fun Facts
 
 - **Favorite Language**: C++ (for performance-critical applications)
 - **Current Obsession**: GPU programming and quantum computing
@@ -396,20 +396,20 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Debugging Method**: Rubber duck debugging 🦆
 - **Code Style**: Clean, documented, and optimized
 
-## 🔥 GitHub Streak
+## GitHub Streak
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" alt="GitHub Streak" />
 </div>
 
-## 📚 Currently Reading
+## Currently Reading
 
 <div align="center">
   <img src="https://img.shields.io/badge/📖_Currently_Reading-Advanced%20CUDA%20Programming-blue?style=for-the-badge&logo=book&logoColor=white" alt="Currently Reading" />
   <img src="https://img.shields.io/badge/📚_Next_Book-Quantum%20Computing%20Algorithms-green?style=for-the-badge&logo=book-open&logoColor=white" alt="Next Book" />
 </div>
 
-## 🌟 Support My Work
+## Support My Work
 
 <div align="center">
   <p>If you found my work helpful, consider supporting me!</p>
