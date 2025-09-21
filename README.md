@@ -1,7 +1,48 @@
-<!-- Header Banner -->
+<!-- Header Banner with CSS Animations -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Umer%20Farooq&fontSize=50&fontAlignY=40&animation=fadeIn" alt="Header Banner" />
 </div>
+
+<!-- CSS Animations and Styling -->
+<style>
+  .hover-effect:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .pulse {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  .project-card {
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    transition: all 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+</style>
 
 <!-- Introduction -->
 <h1 align="center">Umer Farooq</h1>
@@ -9,6 +50,18 @@
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&center=true&vCenter=true&width=800&lines=High-Performance+Computing+%26+GPU+Optimization;Parallel+%26+Distributed+Systems;Compilers+%26+Language+Design;Interactive+Full-Stack+Applications;Always+Learning%2C+Always+Building" alt="Typing Intro" />
+</p>
+
+<!-- Live Status & Current Time -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Available-green?style=for-the-badge&logo=statuspage&logoColor=white" alt="Live Status" />
+  <img src="https://img.shields.io/badge/Current_Time-{time}-blue?style=for-the-badge&logo=clock&logoColor=white" alt="Current Time" />
+  <img src="https://img.shields.io/badge/Timezone-UTC%2B5-orange?style=for-the-badge&logo=world&logoColor=white" alt="Timezone" />
+</p>
+
+<!-- Inspirational Quote -->
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
 </p>
 
 <p align="center">
@@ -24,14 +77,29 @@
   <img src="https://komarev.com/ghpvc/?username=Umer-Farooq-CS&label=Profile%20Views&color=blue&style=for-the-badge&cache_seconds=1800&v=1" alt="Profile Views" />
 </p>
 
+<!-- Interactive Navigation Buttons -->
 <p align="center">
-  <a href="#featured-projects"><b>Projects</b></a> •
-  <a href="#work-experience"><b>Experience</b></a> •
-  <a href="#technical-skills"><b>Skills</b></a> •
-  <a href="docs/Umer-Farooq_CV.pdf"><b>CV</b></a> •
-  <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
-  <a href="docs/Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
-  <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a>
+  <a href="#featured-projects">
+    <img src="https://img.shields.io/badge/Projects-FF6B6B?style=for-the-badge&logo=github&logoColor=white" alt="Projects" />
+  </a>
+  <a href="#work-experience">
+    <img src="https://img.shields.io/badge/Experience-4ECDC4?style=for-the-badge&logo=briefcase&logoColor=white" alt="Experience" />
+  </a>
+  <a href="#technical-skills">
+    <img src="https://img.shields.io/badge/Skills-45B7D1?style=for-the-badge&logo=code&logoColor=white" alt="Skills" />
+  </a>
+  <a href="docs/Umer-Farooq_CV.pdf">
+    <img src="https://img.shields.io/badge/CV-96CEB4?style=for-the-badge&logo=file-pdf&logoColor=white" alt="CV" />
+  </a>
+  <a href="docs/Umer-Farooq-HPC_Resume.pdf">
+    <img src="https://img.shields.io/badge/HPC_Resume-FFEAA7?style=for-the-badge&logo=file-pdf&logoColor=white" alt="HPC Resume" />
+  </a>
+  <a href="docs/Umer-Farooq_SE.pdf">
+    <img src="https://img.shields.io/badge/SE_Resume-DDA0DD?style=for-the-badge&logo=file-pdf&logoColor=white" alt="Software Eng Resume" />
+  </a>
+  <a href="mailto:umerfarooqcs0891@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-E17055?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
+  </a>
 </p>
 
 <div align="center">
@@ -54,10 +122,15 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Location**: Islamabad, Pakistan
 - **Email**: umerfarooqcs0891@gmail.com
 
-
 ---
 
 ## Featured Projects
+
+<!-- Theme Switcher & Language Toggle -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Theme-Tokyo_Night-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="Theme" />
+  <img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge&logo=language&logoColor=white" alt="Language" />
+</div>
 
 ### High-Performance Computing
 <table>
@@ -70,22 +143,22 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/Q-Tensor"><strong>Parallel Tensor Network Quantum Simulator</strong></a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Q-Tensor"><strong>🔬 Parallel Tensor Network Quantum Simulator</strong></a></td>
       <td>Enhanced quantum circuit simulator using hybrid MPI/OpenMP and GPU acceleration</td>
       <td>C++, CUDA, OpenMP, MPI</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/MNIST-Classification"><strong>MNIST Classification (GPU)</strong></a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/MNIST-Classification"><strong>🧠 MNIST Classification (GPU)</strong></a></td>
       <td>Optimized NN with ~6× faster inference via Tensor Cores, FP16, CUDA kernels, streams</td>
       <td>CUDA, Python, Nsight</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector"><strong>GPU-Accelerated Canny Edge</strong></a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Canny-Edge-Detector"><strong>⚡ GPU-Accelerated Canny Edge</strong></a></td>
       <td>CUDA Canny with optimized memory access; ~3.5× over CPU</td>
       <td>C++, CUDA</td>
     </tr>
     <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/LL1-Parser-Plus"><strong>LL(1) Parser Toolkit</strong></a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/LL1-Parser-Plus"><strong>🔧 LL(1) Parser Toolkit</strong></a></td>
       <td>Grammar processing and parsing toolkit</td>
       <td>C</td>
     </tr>
@@ -103,12 +176,12 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   </thead>
   <tbody>
     <tr>
-      <td><strong>Ring DHT with IPFS Integration</strong></td>
+      <td><strong>🌐 Ring DHT with IPFS Integration</strong></td>
       <td>Distributed hash table with circular linked list routing and IPFS storage</td>
       <td>C++, SHA‑1, B‑Trees</td>
     </tr>
     <tr>
-      <td><strong>Doodle Dash – Multiplayer Drawing</strong></td>
+      <td><strong>🎨 Doodle Dash – Multiplayer Drawing</strong></td>
       <td>Client‑server drawing and guessing with custom reliable TCP and multi‑threaded clients</td>
       <td>C++, SFML, TCP, pthreads</td>
     </tr>
@@ -126,17 +199,17 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/Umer-Farooq-CS/Harmoniq"><strong>Harmoniq Audio Library Explorer</strong></a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Harmoniq"><strong>🎵 Harmoniq Audio Library Explorer</strong></a></td>
       <td>Express backend + React frontend for audio library exploration</td>
       <td>JS, React, Node, Express, PostgreSQL</td>
     </tr>
     <tr>
-      <td><strong>DJ Web Application</strong></td>
+      <td><strong>🎧 DJ Web Application</strong></td>
       <td>Real‑time music streaming UI with responsive front‑end</td>
       <td>React, Vite, Node, Express, MongoDB</td>
     </tr>
     <tr>
-      <td><strong>Pac‑Man (Multi‑threaded Ghost AI)</strong></td>
+      <td><strong>👻 Pac‑Man (Multi‑threaded Ghost AI)</strong></td>
       <td>Custom graphics, collision detection, power‑ups, threaded ghost logic</td>
       <td>C++, SFML, pthreads</td>
     </tr>
@@ -233,7 +306,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Compiler Design**: LLVM, Lex/Yacc, Parsing, Code Generation
 - **Full‑Stack Development**: React, Next.js, Node, Express, REST
 
-
 ---
 
 ## Education
@@ -269,9 +341,50 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=onestar&no-frame=true&margin-w=10&margin-h=10&cache_seconds=1800&v=1" alt="GitHub Trophies" />
 </p>
 
-<!-- Dynamic Quotes Section -->
+---
+
+## Interactive Games
+
+### Tic-Tac-Toe
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+  <img src="https://img.shields.io/badge/Game-Tic--Tac--Toe-FF6B6B?style=for-the-badge&logo=gamepad2&logoColor=white" alt="Tic-Tac-Toe" />
+</div>
+
+```html
+<!-- Tic-Tac-Toe Game -->
+<div align="center">
+  <table>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-X&body=Just+click+Submit" target="_blank">X</a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-O&body=Just+click+Submit" target="_blank">O</a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-X&body=Just+click+Submit" target="_blank">X</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-O&body=Just+click+Submit" target="_blank">O</a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-X&body=Just+click+Submit" target="_blank">X</a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-O&body=Just+click+Submit" target="_blank">O</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-X&body=Just+click+Submit" target="_blank">X</a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-O&body=Just+click+Submit" target="_blank">O</a></td>
+      <td><a href="https://github.com/Umer-Farooq-CS/Umer-Farooq-CS/issues/new?title=TicTacToe-X&body=Just+click+Submit" target="_blank">X</a></td>
+    </tr>
+  </table>
+</div>
+```
+
+---
+
+## Social Media Integration
+
+### LinkedIn Activity
+<div align="center">
+  <img src="https://github-readme-linkedin.vercel.app/api?username=umer-farooq-a0838a2a1&theme=tokyonight" alt="LinkedIn Activity" />
+</div>
+
+### Spotify Now Playing
+<div align="center">
+  <img src="https://spotify-github-readme.vercel.app/api/spotify" alt="Spotify Now Playing" />
 </div>
 
 ---
@@ -281,7 +394,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 <div align="center">
   <h3>Ready to collaborate? Let's build something amazing together!</h3>
   
-  <!-- Enhanced Contact Buttons -->
   <p>
     <a href="https://www.linkedin.com/in/umer-farooq-a0838a2a1/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn" height="40" />
@@ -294,27 +406,8 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
     </a>
   </p>
   
-  <!-- Additional Contact Options -->
-  <p>
-    <a href="docs/Umer-Farooq_CV.pdf">
-      <img src="https://img.shields.io/badge/📄_Download_CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Download CV" />
-    </a>
-    <a href="docs/Umer-Farooq-HPC_Resume.pdf">
-      <img src="https://img.shields.io/badge/💻_HPC_Resume-FF6B35?style=for-the-badge&logo=file-pdf&logoColor=white" alt="HPC Resume" />
-    </a>
-    <a href="docs/Umer-Farooq_SE.pdf">
-      <img src="https://img.shields.io/badge/🔧_SE_Resume-00C851?style=for-the-badge&logo=file-pdf&logoColor=white" alt="SE Resume" />
-    </a>
-  </p>
-  
   <p>
     <strong>Available for:</strong> Full-time positions • Freelance projects • Open source contributions • Technical consulting
-  </p>
-  
-  <!-- Fun Interactive Element -->
-  <p>
-    <img src="https://img.shields.io/badge/💬_Let's_Talk-FF6B6B?style=for-the-badge&logo=telegram&logoColor=white" alt="Let's Talk" />
-    <img src="https://img.shields.io/badge/🤝_Open_to_Collaboration-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaboration" />
   </p>
 </div>
 
@@ -327,96 +420,3 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 <p align="center">
   <i>"Efficiency is doing better what is already being done." — Peter Drucker</i>
 </p>
-
----
-
-## Live Status & Activity
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Work-green?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Timezone-PST%20%7C%20UTC%2B5-blue?style=for-the-badge&logo=clock&logoColor=white" alt="Timezone" />
-  <img src="https://img.shields.io/badge/Currently%20Working-HPC%20%26%20GPU%20Projects-orange?style=for-the-badge&logo=code&logoColor=white" alt="Current Work" />
-</p>
-
-## Skill Proficiency
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2FC%2B%2B-Expert-red?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++" />
-  <img src="https://img.shields.io/badge/CUDA-Advanced-orange?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
-  <img src="https://img.shields.io/badge/Python-Proficient-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-Intermediate-green?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-Learning-blue?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-</p>
-
-## Current Focus & Learning
-
-- **Active Projects**: GPU-accelerated quantum simulation, distributed systems optimization
-- **Learning**: Advanced CUDA programming, quantum computing algorithms
-- **Interests**: High-performance computing, compiler design, distributed systems
-- **Goals**: Contributing to open-source HPC projects, building scalable systems
-
-## Interactive Elements
-
-<!-- GitHub Readme Jokes -->
-<div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
-</div>
-
-<!-- Random Dev Memes -->
-<div align="center">
-  <img src="https://random-memer.herokuapp.com/" alt="Random Dev Meme" width="400" />
-</div>
-
-## Achievements & Milestones
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Dean's%20List%20Award-Spring%202023-gold?style=for-the-badge&logo=trophy&logoColor=white" alt="Dean's List" />
-  <img src="https://img.shields.io/badge/30%2B%20Projects%20Delivered-Freelance%20Work-green?style=for-the-badge&logo=checkmark&logoColor=white" alt="Projects Delivered" />
-  <img src="https://img.shields.io/badge/98%%20Client%20Satisfaction-Rate-blue?style=for-the-badge&logo=star&logoColor=white" alt="Client Satisfaction" />
-  <img src="https://img.shields.io/badge/80%%20Repeat%20Customers-Success-purple?style=for-the-badge&logo=repeat&logoColor=white" alt="Repeat Customers" />
-</p>
-
-## What I'm Listening To
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify" alt="Spotify" />
-</div>
-
-## Weekly Development Breakdown
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Umer-Farooq-CS&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats" />
-</div>
-
-## Fun Facts
-
-- **Favorite Language**: C++ (for performance-critical applications)
-- **Current Obsession**: GPU programming and quantum computing
-- **Coffee Consumption**: ☕☕☕ (Essential for late-night coding)
-- **Debugging Method**: Rubber duck debugging 🦆
-- **Code Style**: Clean, documented, and optimized
-
-## GitHub Streak
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" alt="GitHub Streak" />
-</div>
-
-## Currently Reading
-
-<div align="center">
-  <img src="https://img.shields.io/badge/📖_Currently_Reading-Advanced%20CUDA%20Programming-blue?style=for-the-badge&logo=book&logoColor=white" alt="Currently Reading" />
-  <img src="https://img.shields.io/badge/📚_Next_Book-Quantum%20Computing%20Algorithms-green?style=for-the-badge&logo=book-open&logoColor=white" alt="Next Book" />
-</div>
-
-## Support My Work
-
-<div align="center">
-  <p>If you found my work helpful, consider supporting me!</p>
-  <a href="https://www.buymeacoffee.com/umerfarooq" target="_blank">
-    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
-  </a>
-  <a href="https://github.com/sponsors/Umer-Farooq-CS" target="_blank">
-    <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" />
-  </a>
-</div>
