@@ -251,15 +251,20 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&cache_seconds=1800&v=1" alt="GitHub Streak" width="48%" />
 </div>
 
-<!-- Second Row: Top Languages & Trophies -->
+<!-- Second Row: Top Languages & Productive Time -->
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800&v=1" alt="Top Languages" width="48%" />
-  <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=onestar&no-frame=true&margin-w=10&margin-h=10&cache_seconds=1800&v=1" alt="GitHub Trophies" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5&cache_seconds=1800&v=1" alt="Productive time" width="48%" />
 </div>
 
 <!-- Third Row: Contribution Graph -->
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true&cache_seconds=1800&v=1" alt="Contribution Graph" width="100%" />
+</p>
+
+<!-- Trophies Section (separate as before) -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=onestar&no-frame=true&margin-w=10&margin-h=10&cache_seconds=1800&v=1" alt="GitHub Trophies" />
 </p>
 
 ---
