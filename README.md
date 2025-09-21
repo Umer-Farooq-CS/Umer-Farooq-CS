@@ -252,12 +252,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Umer-Farooq-CS&theme=tokyonight&cache_seconds=1800&v=1" alt="Profile Details" width="100%" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Umer-Farooq-CS&theme=tokyonight&cache_seconds=1800&v=1" alt="Repos per language" width="49%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Umer-Farooq-CS&theme=tokyonight&cache_seconds=1800&v=1" alt="Most commit language" width="49%" />
-  <br/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Umer-Farooq-CS&theme=tokyonight&cache_seconds=1800&v=1" alt="Stats" width="49%" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5&cache_seconds=1800&v=1" alt="Productive time" width="49%" />
 </div>
 
