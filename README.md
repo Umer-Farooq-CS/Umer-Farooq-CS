@@ -24,30 +24,14 @@
   <img src="https://komarev.com/ghpvc/?username=Umer-Farooq-CS&label=Profile%20Views&color=blue&style=for-the-badge&cache_seconds=1800&v=1" alt="Profile Views" />
 </p>
 
-<!-- Live Status & Activity -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Available%20for%20Work-green?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Timezone-PST%20%7C%20UTC%2B5-blue?style=for-the-badge&logo=clock&logoColor=white" alt="Timezone" />
-  <img src="https://img.shields.io/badge/Currently%20Working-HPC%20%26%20GPU%20Projects-orange?style=for-the-badge&logo=code&logoColor=white" alt="Current Work" />
-</p>
-
-<!-- Interactive Navigation -->
-<p align="center">
-  <a href="#featured-projects">
-    <img src="https://img.shields.io/badge/🚀_Projects-000000?style=for-the-badge&logo=rocket&logoColor=white" alt="Projects" />
-  </a>
-  <a href="#work-experience">
-    <img src="https://img.shields.io/badge/💼_Experience-0077B5?style=for-the-badge&logo=briefcase&logoColor=white" alt="Experience" />
-  </a>
-  <a href="#technical-skills">
-    <img src="https://img.shields.io/badge/🛠️_Skills-FF6B35?style=for-the-badge&logo=tools&logoColor=white" alt="Skills" />
-  </a>
-  <a href="docs/Umer-Farooq_CV.pdf">
-    <img src="https://img.shields.io/badge/📄_CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="CV" />
-  </a>
-  <a href="mailto:umerfarooqcs0891@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
-  </a>
+  <a href="#featured-projects"><b>Projects</b></a> •
+  <a href="#work-experience"><b>Experience</b></a> •
+  <a href="#technical-skills"><b>Skills</b></a> •
+  <a href="docs/Umer-Farooq_CV.pdf"><b>CV</b></a> •
+  <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
+  <a href="docs/Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
+  <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a>
 </p>
 
 <div align="center">
@@ -70,11 +54,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Location**: Islamabad, Pakistan
 - **Email**: umerfarooqcs0891@gmail.com
 
-### Current Focus & Learning
-- **Active Projects**: GPU-accelerated quantum simulation, distributed systems optimization
-- **Learning**: Advanced CUDA programming, quantum computing algorithms
-- **Interests**: High-performance computing, compiler design, distributed systems
-- **Goals**: Contributing to open-source HPC projects, building scalable systems
 
 ---
 
@@ -254,14 +233,6 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Compiler Design**: LLVM, Lex/Yacc, Parsing, Code Generation
 - **Full‑Stack Development**: React, Next.js, Node, Express, REST
 
-### Skill Proficiency
-<p align="center">
-  <img src="https://img.shields.io/badge/C%2FC%2B%2B-Expert-red?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++" />
-  <img src="https://img.shields.io/badge/CUDA-Advanced-orange?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
-  <img src="https://img.shields.io/badge/Python-Proficient-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-Intermediate-green?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/React-Learning-blue?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-</p>
 
 ---
 
@@ -356,3 +327,96 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 <p align="center">
   <i>"Efficiency is doing better what is already being done." — Peter Drucker</i>
 </p>
+
+---
+
+## 🚀 Live Status & Activity
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Available%20for%20Work-green?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+  <img src="https://img.shields.io/badge/Timezone-PST%20%7C%20UTC%2B5-blue?style=for-the-badge&logo=clock&logoColor=white" alt="Timezone" />
+  <img src="https://img.shields.io/badge/Currently%20Working-HPC%20%26%20GPU%20Projects-orange?style=for-the-badge&logo=code&logoColor=white" alt="Current Work" />
+</p>
+
+## 🎯 Skill Proficiency
+
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-Expert-red?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++" />
+  <img src="https://img.shields.io/badge/CUDA-Advanced-orange?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
+  <img src="https://img.shields.io/badge/Python-Proficient-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-Intermediate-green?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-Learning-blue?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+</p>
+
+## 📈 Current Focus & Learning
+
+- **Active Projects**: GPU-accelerated quantum simulation, distributed systems optimization
+- **Learning**: Advanced CUDA programming, quantum computing algorithms
+- **Interests**: High-performance computing, compiler design, distributed systems
+- **Goals**: Contributing to open-source HPC projects, building scalable systems
+
+## 🎮 Interactive Elements
+
+<!-- GitHub Readme Jokes -->
+<div align="center">
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&hideBorder" alt="Jokes Card" />
+</div>
+
+<!-- Random Dev Memes -->
+<div align="center">
+  <img src="https://random-memer.herokuapp.com/" alt="Random Dev Meme" width="400" />
+</div>
+
+## 🏆 Achievements & Milestones
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Dean's%20List%20Award-Spring%202023-gold?style=for-the-badge&logo=trophy&logoColor=white" alt="Dean's List" />
+  <img src="https://img.shields.io/badge/30%2B%20Projects%20Delivered-Freelance%20Work-green?style=for-the-badge&logo=checkmark&logoColor=white" alt="Projects Delivered" />
+  <img src="https://img.shields.io/badge/98%%20Client%20Satisfaction-Rate-blue?style=for-the-badge&logo=star&logoColor=white" alt="Client Satisfaction" />
+  <img src="https://img.shields.io/badge/80%%20Repeat%20Customers-Success-purple?style=for-the-badge&logo=repeat&logoColor=white" alt="Repeat Customers" />
+</p>
+
+## 🎵 What I'm Listening To
+
+<div align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/spotify" alt="Spotify" />
+</div>
+
+## 📊 Weekly Development Breakdown
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Umer-Farooq-CS&theme=tokyonight&hide_border=true&layout=compact" alt="WakaTime Stats" />
+</div>
+
+## 🎨 Fun Facts
+
+- **Favorite Language**: C++ (for performance-critical applications)
+- **Current Obsession**: GPU programming and quantum computing
+- **Coffee Consumption**: ☕☕☕ (Essential for late-night coding)
+- **Debugging Method**: Rubber duck debugging 🦆
+- **Code Style**: Clean, documented, and optimized
+
+## 🔥 GitHub Streak
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&stroke=0000&background=0D1117&ring=5BCDEC&fire=5BCDEC&currStreakLabel=5BCDEC" alt="GitHub Streak" />
+</div>
+
+## 📚 Currently Reading
+
+<div align="center">
+  <img src="https://img.shields.io/badge/📖_Currently_Reading-Advanced%20CUDA%20Programming-blue?style=for-the-badge&logo=book&logoColor=white" alt="Currently Reading" />
+  <img src="https://img.shields.io/badge/📚_Next_Book-Quantum%20Computing%20Algorithms-green?style=for-the-badge&logo=book-open&logoColor=white" alt="Next Book" />
+</div>
+
+## 🌟 Support My Work
+
+<div align="center">
+  <p>If you found my work helpful, consider supporting me!</p>
+  <a href="https://www.buymeacoffee.com/umerfarooq" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
+  </a>
+  <a href="https://github.com/sponsors/Umer-Farooq-CS" target="_blank">
+    <img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors" />
+  </a>
+</div>
