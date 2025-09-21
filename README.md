@@ -247,20 +247,26 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 <!-- First Row: GitHub Stats & Streak -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800&v=1" alt="GitHub Stats" width="48%" />
-  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&cache_seconds=1800&v=1" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800&v=1" alt="GitHub Stats" width="48%" height="200" />
+  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&cache_seconds=1800&v=1" alt="GitHub Streak" width="48%" height="200" />
 </div>
+
+<br/><br/>
 
 <!-- Second Row: Top Languages & Productive Time -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800&v=1" alt="Top Languages" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5&cache_seconds=1800&v=1" alt="Productive time" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800&v=1" alt="Top Languages" width="48%" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5&cache_seconds=1800&v=1" alt="Productive time" width="48%" height="200" />
 </div>
+
+<br/><br/>
 
 <!-- Third Row: Contribution Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true&cache_seconds=1800&v=1" alt="Contribution Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true&cache_seconds=1800&v=1" alt="Contribution Graph" width="100%" height="200" />
 </p>
+
+<br/><br/>
 
 <!-- Trophies Section (separate as before) -->
 <p align="center">
