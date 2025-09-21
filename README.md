@@ -4,7 +4,7 @@
 </div>
 
 <!-- Introduction -->
-<h1 align="center">👋 Hi, I'm Umer Farooq</h1>
+<h1 align="center">Umer Farooq</h1>
 <h3 align="center">HPC & GPU Computing Specialist | Distributed Systems Engineer | Full-Stack Developer</h3>
 
 <p align="center">
@@ -45,18 +45,18 @@
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
 I'm a systems-focused computer scientist with deep expertise in high-performance computing, parallel and distributed systems, and full-stack development. I build efficient, scalable systems—from low-level GPU-accelerated algorithms and compiler design to interactive full-stack applications and distributed systems.
 
-- 🎓 **Education**: Bachelor of Computer Science at NUCES, Islamabad (Expected 2026)
-- 🏆 **Awards**: Dean's List Award (Spring 2023)
-- 🌍 **Location**: Islamabad, Pakistan
-- 📧 **Email**: umerfarooqcs0891@gmail.com
+- **Education**: Bachelor of Computer Science at NUCES, Islamabad (Expected 2026)
+- **Awards**: Dean's List Award (Spring 2023)
+- **Location**: Islamabad, Pakistan
+- **Email**: umerfarooqcs0891@gmail.com
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### High-Performance Computing
 <table>
@@ -162,7 +162,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 💼 Work Experience
+## Work Experience
 
 ### Freelance Developer (August 2023 - August 2024)
 - Delivered 30+ full-stack web applications for diverse clients using MERN stack and .NET
@@ -173,7 +173,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 ---
 
 <a id="technical-skills"></a>
-## 🛠️ Technical Skills
+## Technical Skills
 
 ### Programming Languages
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
@@ -234,7 +234,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 🎓 Education
+## Education
 
 ### Bachelor of Computer Science
 **National University of Computer and Emerging Sciences (NUCES), Islamabad**  
@@ -243,30 +243,24 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <!-- First Row: GitHub Stats & Streak -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800&v=1" alt="GitHub Stats" width="48%" height="200" />
-  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&cache_seconds=1800&v=1" alt="GitHub Streak" width="48%" height="200" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Umer-Farooq-CS&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800&v=1" alt="GitHub Stats" width="48%" />
+  <img src="https://streak-stats.demolab.com?user=Umer-Farooq-CS&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&mode=weekly&cache_seconds=1800&v=1" alt="GitHub Streak" width="48%" />
 </div>
-
-<br/><br/>
 
 <!-- Second Row: Top Languages & Productive Time -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800&v=1" alt="Top Languages" width="48%" height="200" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5&cache_seconds=1800&v=1" alt="Productive time" width="48%" height="200" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Umer-Farooq-CS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800&v=1" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Umer-Farooq-CS&theme=tokyonight&utcOffset=5&cache_seconds=1800&v=1" alt="Productive time" width="48%" />
 </div>
-
-<br/><br/>
 
 <!-- Third Row: Contribution Graph -->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true&cache_seconds=1800&v=1" alt="Contribution Graph" width="100%" height="200" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Umer-Farooq-CS&theme=tokyo-night&area=true&hide_border=true&cache_seconds=1800&v=1" alt="Contribution Graph" width="100%" />
 </p>
-
-<br/><br/>
 
 <!-- Trophies Section (separate as before) -->
 <p align="center">
@@ -275,10 +269,10 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 
 ---
 
-## 📫 Let's Connect!
+## Contact
 
 <div align="center">
-  <h3>🚀 Ready to collaborate? Let's build something amazing together!</h3>
+  <h3>Ready to collaborate? Let's build something amazing together!</h3>
   
   <p>
     <a href="https://www.linkedin.com/in/umer-farooq-a0838a2a1/">
@@ -293,7 +287,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   </p>
   
   <p>
-    <strong>💼 Available for:</strong> Full-time positions • Freelance projects • Open source contributions • Technical consulting
+    <strong>Available for:</strong> Full-time positions • Freelance projects • Open source contributions • Technical consulting
   </p>
 </div>
 
