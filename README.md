@@ -24,14 +24,30 @@
   <img src="https://komarev.com/ghpvc/?username=Umer-Farooq-CS&label=Profile%20Views&color=blue&style=for-the-badge&cache_seconds=1800&v=1" alt="Profile Views" />
 </p>
 
+<!-- Live Status & Activity -->
 <p align="center">
-  <a href="#-featured-projects"><b>Projects</b></a> •
-  <a href="#-work-experience"><b>Experience</b></a> •
-  <a href="#-technical-skills"><b>Skills</b></a> •
-  <a href="docs/Umer-Farooq_CV.pdf"><b>CV</b></a> •
-  <a href="docs/Umer-Farooq-HPC_Resume.pdf"><b>HPC Resume</b></a> •
-  <a href="docs/Umer-Farooq_SE.pdf"><b>Software Eng Resume</b></a> •
-  <a href="mailto:umerfarooqcs0891@gmail.com"><b>Contact</b></a>
+  <img src="https://img.shields.io/badge/Status-Available%20for%20Work-green?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
+  <img src="https://img.shields.io/badge/Timezone-PST%20%7C%20UTC%2B5-blue?style=for-the-badge&logo=clock&logoColor=white" alt="Timezone" />
+  <img src="https://img.shields.io/badge/Currently%20Working-HPC%20%26%20GPU%20Projects-orange?style=for-the-badge&logo=code&logoColor=white" alt="Current Work" />
+</p>
+
+<!-- Interactive Navigation -->
+<p align="center">
+  <a href="#featured-projects">
+    <img src="https://img.shields.io/badge/🚀_Projects-000000?style=for-the-badge&logo=rocket&logoColor=white" alt="Projects" />
+  </a>
+  <a href="#work-experience">
+    <img src="https://img.shields.io/badge/💼_Experience-0077B5?style=for-the-badge&logo=briefcase&logoColor=white" alt="Experience" />
+  </a>
+  <a href="#technical-skills">
+    <img src="https://img.shields.io/badge/🛠️_Skills-FF6B35?style=for-the-badge&logo=tools&logoColor=white" alt="Skills" />
+  </a>
+  <a href="docs/Umer-Farooq_CV.pdf">
+    <img src="https://img.shields.io/badge/📄_CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="CV" />
+  </a>
+  <a href="mailto:umerfarooqcs0891@gmail.com">
+    <img src="https://img.shields.io/badge/📧_Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact" />
+  </a>
 </p>
 
 <div align="center">
@@ -53,6 +69,12 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Awards**: Dean's List Award (Spring 2023)
 - **Location**: Islamabad, Pakistan
 - **Email**: umerfarooqcs0891@gmail.com
+
+### Current Focus & Learning
+- **Active Projects**: GPU-accelerated quantum simulation, distributed systems optimization
+- **Learning**: Advanced CUDA programming, quantum computing algorithms
+- **Interests**: High-performance computing, compiler design, distributed systems
+- **Goals**: Contributing to open-source HPC projects, building scalable systems
 
 ---
 
@@ -232,6 +254,15 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 - **Compiler Design**: LLVM, Lex/Yacc, Parsing, Code Generation
 - **Full‑Stack Development**: React, Next.js, Node, Express, REST
 
+### Skill Proficiency
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2FC%2B%2B-Expert-red?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++" />
+  <img src="https://img.shields.io/badge/CUDA-Advanced-orange?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
+  <img src="https://img.shields.io/badge/Python-Proficient-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-Intermediate-green?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/React-Learning-blue?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+</p>
+
 ---
 
 ## Education
@@ -267,6 +298,11 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
   <img src="https://github-profile-trophy.vercel.app/?username=Umer-Farooq-CS&theme=onestar&no-frame=true&margin-w=10&margin-h=10&cache_seconds=1800&v=1" alt="GitHub Trophies" />
 </p>
 
+<!-- Dynamic Quotes Section -->
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+</div>
+
 ---
 
 ## Contact
@@ -274,6 +310,7 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
 <div align="center">
   <h3>Ready to collaborate? Let's build something amazing together!</h3>
   
+  <!-- Enhanced Contact Buttons -->
   <p>
     <a href="https://www.linkedin.com/in/umer-farooq-a0838a2a1/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn" height="40" />
@@ -286,8 +323,27 @@ I'm a systems-focused computer scientist with deep expertise in high-performance
     </a>
   </p>
   
+  <!-- Additional Contact Options -->
+  <p>
+    <a href="docs/Umer-Farooq_CV.pdf">
+      <img src="https://img.shields.io/badge/📄_Download_CV-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Download CV" />
+    </a>
+    <a href="docs/Umer-Farooq-HPC_Resume.pdf">
+      <img src="https://img.shields.io/badge/💻_HPC_Resume-FF6B35?style=for-the-badge&logo=file-pdf&logoColor=white" alt="HPC Resume" />
+    </a>
+    <a href="docs/Umer-Farooq_SE.pdf">
+      <img src="https://img.shields.io/badge/🔧_SE_Resume-00C851?style=for-the-badge&logo=file-pdf&logoColor=white" alt="SE Resume" />
+    </a>
+  </p>
+  
   <p>
     <strong>Available for:</strong> Full-time positions • Freelance projects • Open source contributions • Technical consulting
+  </p>
+  
+  <!-- Fun Interactive Element -->
+  <p>
+    <img src="https://img.shields.io/badge/💬_Let's_Talk-FF6B6B?style=for-the-badge&logo=telegram&logoColor=white" alt="Let's Talk" />
+    <img src="https://img.shields.io/badge/🤝_Open_to_Collaboration-4ECDC4?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to Collaboration" />
   </p>
 </div>
 
