@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/Umer-Farooq-CS/Umer-Farooq-CS/main/profile-summary-card-output/default/4-productive-time.svg)
+```
+
+    
