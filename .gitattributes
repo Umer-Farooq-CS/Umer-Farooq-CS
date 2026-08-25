@@ -1,0 +1,9 @@
+# Generated assets and the script that writes them must be byte-identical on
+# every platform, or `build-assets.mjs --check` fails in CI on a line ending.
+*.svg text eol=lf
+*.mjs text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Keep generated SVGs out of diffs and language stats.
+assets/*.svg linguist-generated=true

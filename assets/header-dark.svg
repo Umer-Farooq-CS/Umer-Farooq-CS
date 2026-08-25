@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img">
+<style>
+  .m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+
+</style>
+<rect x="0.5" y="0.5" width="999" height="299" rx="9" fill="#0A0D10" stroke="#262B31"/>
+<rect x="28" y="22" width="7" height="7" fill="#E8571E"/>
+<text x="46" y="29" class="m" font-size="11" letter-spacing="1.4" fill="#9AA1A9">DATASHEET · UF-2026-CS</text>
+<text x="972" y="29" class="m" font-size="11" letter-spacing="1.4" fill="#9AA1A9" text-anchor="end">REV 2026.08</text>
+<line x1="0" y1="46" x2="1000" y2="46" stroke="#262B31" stroke-width="1"/>
+<text x="28" y="112" class="s" font-size="44" font-weight="700" letter-spacing="5" fill="#E7E9EC">UMER FAROOQ</text>
+<text x="30" y="146" class="m" font-size="13.5" fill="#9AA1A9">Systems engineer — HPC · GPU · quantum simulation · verified AI</text>
+<text x="30" y="170" class="m" font-size="11.5" fill="#7D858E">Every figure on this page is measured, and names what it was measured against.</text>
+<line x1="648" y1="62" x2="648" y2="194" stroke="#262B31" stroke-width="1"/>
+<text x="672" y="86" class="m" font-size="10.5" letter-spacing="1.2" fill="#7D858E">PART</text>
+<text x="766" y="86" class="m" font-size="11" fill="#E7E9EC">UF-2026-CS</text>
+<text x="672" y="110" class="m" font-size="10.5" letter-spacing="1.2" fill="#7D858E">PACKAGE</text>
+<text x="766" y="110" class="m" font-size="11" fill="#E7E9EC">Islamabad, PKT (UTC+5)</text>
+<text x="672" y="134" class="m" font-size="10.5" letter-spacing="1.2" fill="#7D858E">PROCESS</text>
+<text x="766" y="134" class="m" font-size="11" fill="#E7E9EC">FAST-NUCES · BS CS 2022–26</text>
+<text x="672" y="158" class="m" font-size="10.5" letter-spacing="1.2" fill="#7D858E">STATUS</text>
+<rect x="766" y="151" width="7" height="7" rx="3.5" fill="#37A85F"/>
+<text x="780" y="158" class="m" font-size="11" fill="#37A85F" font-weight="600">OPEN TO WORK</text>
+<line x1="0" y1="214" x2="1000" y2="214" stroke="#262B31" stroke-width="1"/>
+<text x="28" y="254" class="m" font-size="27" font-weight="600" fill="#E8571E">6.0×</text>
+<text x="28" y="274" class="m" font-size="10" letter-spacing="1.3" fill="#9AA1A9">GPU SPEEDUP</text>
+<text x="28" y="289" class="m" font-size="10" fill="#7D858E">FP16 Tensor Cores, CUDA streams</text>
+<line x1="250" y1="214" x2="250" y2="300" stroke="#262B31" stroke-width="1"/>
+<text x="278" y="254" class="m" font-size="27" font-weight="600" fill="#8A63E0">92%</text>
+<text x="278" y="274" class="m" font-size="10" letter-spacing="1.3" fill="#9AA1A9">VERIFIED OUTPUT</text>
+<text x="278" y="289" class="m" font-size="10" fill="#7D858E">Cirq-RAG, vs a 52% baseline</text>
+<line x1="500" y1="214" x2="500" y2="300" stroke="#262B31" stroke-width="1"/>
+<text x="528" y="254" class="m" font-size="27" font-weight="600" fill="#1E9CC2">20+</text>
+<text x="528" y="274" class="m" font-size="10" letter-spacing="1.3" fill="#9AA1A9">QUBITS SIMULATED</text>
+<text x="528" y="289" class="m" font-size="10" fill="#7D858E">hybrid MPI + OpenMP + CUDA</text>
+<line x1="750" y1="214" x2="750" y2="300" stroke="#262B31" stroke-width="1"/>
+<text x="778" y="254" class="m" font-size="27" font-weight="600" fill="#37A85F">100+</text>
+<text x="778" y="274" class="m" font-size="10" letter-spacing="1.3" fill="#9AA1A9">PROJECTS DELIVERED</text>
+<text x="778" y="289" class="m" font-size="10" fill="#7D858E">98% satisfaction, Fiverr L2</text>
+</svg>

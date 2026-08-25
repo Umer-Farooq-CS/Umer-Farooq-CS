@@ -1,3 +1,7 @@
+# Publishes the contribution-snake SVGs to the `output` branch.
+#
+# crazy-max/ghaction-github-pages replaces the branch contents wholesale, which
+# is why nothing else may target `output`. Summary cards live on `cards`.
 name: Generate contribution snake
 
 on:

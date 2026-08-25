@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="492" viewBox="0 0 1000 492" role="img">
+<style>
+  .m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+
+</style>
+<rect x="0.5" y="0.5" width="999" height="491" rx="9" fill="#EDEFF1" stroke="#D2D6DB"/>
+<text x="28" y="44" class="s" font-size="19" font-weight="600" fill="#0B0D10">Functional blocks</text>
+<text x="28" y="67" class="m" font-size="11.5" fill="#767D85">what goes in, what comes back, and the loop that closes every one of them</text>
+<text x="28" y="100" class="m" font-size="10" letter-spacing="1.4" fill="#767D85">INPUT</text>
+<text x="300" y="100" class="m" font-size="10" letter-spacing="1.4" fill="#767D85">CAPABILITY</text>
+<text x="700" y="100" class="m" font-size="10" letter-spacing="1.4" fill="#767D85">RETURNS</text>
+<rect x="28" y="118" width="240" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="44" y="155" class="m" font-size="11" fill="#5A6169">a workload that is too slow</text>
+<rect x="300" y="118" width="360" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<path d="M306,118 H303.5 A3.5,3.5 0 0 0 300,124 V178 A3.5,3.5 0 0 0 303.5,184 H306 Z" fill="#E04A0F"/>
+<text x="320" y="146" class="m" font-size="12.5" font-weight="600" letter-spacing="1.5" fill="#E04A0F">PARALLELISATION</text>
+<text x="320" y="166" class="m" font-size="10.5" fill="#5A6169">CUDA · MPI · OpenMP · pthreads · Nsight</text>
+<rect x="700" y="118" width="272" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="716" y="155" class="m" font-size="11" fill="#0B0D10">a speedup curve, and its profile</text>
+<line x1="268" y1="151" x2="294" y2="151" stroke="#D2D6DB" stroke-width="1"/><path d="M300,151 L294,147.5 L294,154.5 Z" fill="#D2D6DB"/>
+<line x1="660" y1="151" x2="694" y2="151" stroke="#E04A0F" stroke-width="1"/><path d="M700,151 L694,147.5 L694,154.5 Z" fill="#E04A0F"/>
+<rect x="28" y="196" width="240" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="44" y="233" class="m" font-size="11" fill="#5A6169">a circuit, in someone&apos;s SDK</text>
+<rect x="300" y="196" width="360" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<path d="M306,196 H303.5 A3.5,3.5 0 0 0 300,202 V256 A3.5,3.5 0 0 0 303.5,262 H306 Z" fill="#0E8AA8"/>
+<text x="320" y="224" class="m" font-size="12.5" font-weight="600" letter-spacing="1.5" fill="#0E8AA8">QUANTUM SIMULATION</text>
+<text x="320" y="244" class="m" font-size="10.5" fill="#5A6169">Qiskit · Cirq · PennyLane · OpenQASM 3.0</text>
+<rect x="700" y="196" width="272" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="716" y="233" class="m" font-size="11" fill="#0B0D10">portable circuits and statevectors</text>
+<line x1="268" y1="229" x2="294" y2="229" stroke="#D2D6DB" stroke-width="1"/><path d="M300,229 L294,225.5 L294,232.5 Z" fill="#D2D6DB"/>
+<line x1="660" y1="229" x2="694" y2="229" stroke="#0E8AA8" stroke-width="1"/><path d="M700,229 L694,225.5 L694,232.5 Z" fill="#0E8AA8"/>
+<rect x="28" y="274" width="240" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="44" y="311" class="m" font-size="11" fill="#5A6169">a model that is confidently wrong</text>
+<rect x="300" y="274" width="360" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<path d="M306,274 H303.5 A3.5,3.5 0 0 0 300,280 V334 A3.5,3.5 0 0 0 303.5,340 H306 Z" fill="#6D4AC4"/>
+<text x="320" y="302" class="m" font-size="12.5" font-weight="600" letter-spacing="1.5" fill="#6D4AC4">VERIFIED AI</text>
+<text x="320" y="322" class="m" font-size="10.5" fill="#5A6169">RAG · multi-agent · FAISS · self-repair</text>
+<rect x="700" y="274" width="272" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="716" y="311" class="m" font-size="11" fill="#0B0D10">output checked, not trusted</text>
+<line x1="268" y1="307" x2="294" y2="307" stroke="#D2D6DB" stroke-width="1"/><path d="M300,307 L294,303.5 L294,310.5 Z" fill="#D2D6DB"/>
+<line x1="660" y1="307" x2="694" y2="307" stroke="#6D4AC4" stroke-width="1"/><path d="M700,307 L694,303.5 L694,310.5 Z" fill="#6D4AC4"/>
+<rect x="28" y="352" width="240" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="44" y="389" class="m" font-size="11" fill="#5A6169">a requirement, not a repo</text>
+<rect x="300" y="352" width="360" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<path d="M306,352 H303.5 A3.5,3.5 0 0 0 300,358 V412 A3.5,3.5 0 0 0 303.5,418 H306 Z" fill="#2563EB"/>
+<text x="320" y="380" class="m" font-size="12.5" font-weight="600" letter-spacing="1.5" fill="#2563EB">PLATFORM &amp; DELIVERY</text>
+<text x="320" y="400" class="m" font-size="10.5" fill="#5A6169">React · FastAPI · Postgres · Docker · K8s</text>
+<rect x="700" y="352" width="272" height="66" rx="6" fill="#F7F8F9" stroke="#D2D6DB"/>
+<text x="716" y="389" class="m" font-size="11" fill="#0B0D10">a deployed system, CI in front</text>
+<line x1="268" y1="385" x2="294" y2="385" stroke="#D2D6DB" stroke-width="1"/><path d="M300,385 L294,381.5 L294,388.5 Z" fill="#D2D6DB"/>
+<line x1="660" y1="385" x2="694" y2="385" stroke="#2563EB" stroke-width="1"/><path d="M700,385 L694,381.5 L694,388.5 Z" fill="#2563EB"/>
+<path d="M836,418 V446 H148 V426" fill="none" stroke="#5A6169" stroke-width="1" stroke-dasharray="4 4"/>
+<path d="M148,418 L144,426 L152,426 Z" fill="#5A6169"/>
+<rect x="243.8" y="435" width="512.4" height="22" fill="#EDEFF1"/>
+<text x="500" y="450" class="m" font-size="11" fill="#5A6169" text-anchor="middle">MEASURE — profile it, benchmark it, validate it — then run the block again</text>
+</svg>

@@ -1,4 +1,19 @@
-name: Generate profile summary cards
+# Publishes the generated GitHub summary cards to the `cards` branch, which the
+# README reads over raw.githubusercontent.
+#
+# Two things were wrong with the previous setup and both are fixed here:
+#
+#   1. It declared BRANCH_NAME: output, but the action commits to whatever branch
+#      is checked out — so ~400 generated SVGs across 66 themes landed on `main`
+#      every night, in a repo whose entire purpose is one README. Checking out
+#      `cards` explicitly is what actually decides where they go.
+#   2. `output` is force-published to by the snake workflow, which replaces the
+#      branch wholesale. Whichever job ran second erased the other's files.
+#      Separate branches, no collision.
+#
+# Nothing here writes to `main`.
+
+name: Refresh GitHub summary cards
 
 on:
   schedule:
@@ -13,6 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: cards
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
@@ -21,6 +37,5 @@ jobs:
         with:
           USERNAME: Umer-Farooq-CS
           UTC_OFFSET: 5
-          BRANCH_NAME: output
+          BRANCH_NAME: cards
           AUTO_PUSH: "true"
-

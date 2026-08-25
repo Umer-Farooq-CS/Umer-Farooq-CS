@@ -1,0 +1,31 @@
+# Gate: the pictures in the README must agree with the data behind them.
+#
+# assets/*.svg are generated from scripts/data.mjs. This fails the run if the
+# two have drifted — either a figure was edited in the data without rebuilding,
+# or an SVG was hand-edited to say something the data does not.
+
+name: Verify generated assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "assets/**"
+      - "scripts/**"
+      - ".github/workflows/verify-assets.yml"
+  pull_request:
+    paths:
+      - "assets/**"
+      - "scripts/**"
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Check assets are in sync with scripts/data.mjs
+        run: node scripts/build-assets.mjs --check
