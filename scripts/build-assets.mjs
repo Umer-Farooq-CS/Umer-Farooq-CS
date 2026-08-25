@@ -1,32 +1,39 @@
 #!/usr/bin/env node
 // Generates every SVG under assets/ from scripts/data.mjs.
 //
-// Two files per asset — a light and a dark cut — because GitHub picks between
+// The README is built out of these panels rather than markdown tables, and that
+// is a deliberate choice: GitHub strips all author CSS, so a markdown table can
+// only ever render as GitHub's bordered grid. Typography, alignment, colour and
+// hierarchy are only available inside an SVG. Every panel therefore carries a
+// full alt description, and the README keeps a plain-text version behind a
+// <details> so nothing here is only available as a picture.
+//
+// Two files per panel — a light and a dark cut — because GitHub picks between
 // them with <picture media="(prefers-color-scheme: dark)">. A single SVG using
-// an internal prefers-color-scheme query does not work here: an SVG loaded
-// through <img> resolves that against the operating system, not against the
-// GitHub theme the reader actually chose.
+// an internal prefers-color-scheme query does not work: an SVG loaded through
+// <img> resolves that against the operating system, not against the GitHub
+// theme the reader actually chose.
 //
 // The two accent palettes are not a light/dark flip of each other. Each was
 // checked against its own surface for the OKLCH lightness band, the chroma
-// floor, colour-vision separation, and WCAG contrast, and these are the values
-// that passed on both sides.
+// floor, colour-vision separation, and WCAG contrast.
 //
 //   node scripts/build-assets.mjs            write assets/
 //   node scripts/build-assets.mjs --check    exit 1 if assets/ is out of date
 
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   BLOCKS,
   CONSOLE,
+  CTA,
   FEEDBACK_BUS,
   IDENTITY,
   RATINGS,
   REV,
-  SPEEDUPS,
-  SPEEDUP_AXIS_MAX,
+  WORK,
+  WORK_TOTAL,
 } from "./data.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -76,6 +83,8 @@ const MONO =
   'ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace';
 const SANS =
   '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif';
+
+const W = 1000;
 
 // -- helpers ------------------------------------------------------------------
 
@@ -130,6 +139,14 @@ ${body}
 `;
 }
 
+/** Every panel but the header opens the same way: title, then one quiet line. */
+function panelHead(t, title, subtitle) {
+  return [
+    text(title, { x: 28, y: 44, class: "s", "font-size": 19, "font-weight": 600, fill: t.ink }),
+    text(subtitle, { x: 28, y: 67, class: "m", "font-size": 11.5, fill: t.faint }),
+  ].join("\n");
+}
+
 /** Right-pointing connector: a hairline with a small solid head. */
 function connector(x1, x2, y, colour) {
   const head = 6;
@@ -145,7 +162,6 @@ function connector(x1, x2, y, colour) {
 // -- 1. header ----------------------------------------------------------------
 
 function header(t) {
-  const W = 1000;
   const H = 300;
   const STRIP = 214;
   const parts = [];
@@ -208,20 +224,13 @@ function header(t) {
   const spec = [
     ["PART", IDENTITY.part, null],
     ["PACKAGE", IDENTITY.location, null],
-    ["PROCESS", "FAST-NUCES · BS CS 2022–26", null],
+    ["PROCESS", IDENTITY.process, null],
     ["STATUS", IDENTITY.status, t.tone.systems],
   ];
   spec.forEach(([key, value, tone], i) => {
     const y = 86 + i * 24;
     parts.push(
-      text(key, {
-        x: 672,
-        y,
-        class: "m",
-        "font-size": 10.5,
-        "letter-spacing": 1.2,
-        fill: t.faint,
-      }),
+      text(key, { x: 672, y, class: "m", "font-size": 10.5, "letter-spacing": 1.2, fill: t.faint }),
     );
     if (tone) {
       parts.push(rect({ x: 766, y: y - 7, width: 7, height: 7, rx: 3.5, fill: tone }));
@@ -261,146 +270,72 @@ function header(t) {
   return doc({ w: W, h: H, theme: t, body: parts.join("\n") });
 }
 
-// -- 2. speedup chart ---------------------------------------------------------
+// -- 2. selected work ---------------------------------------------------------
 
-function speedup(t) {
-  const W = 1000;
-  const H = 384;
-  const X0 = 360;
-  const X1 = 956;
-  const TOP = 108;
-  const ROW = 46;
-  const BAR = 20;
-  const AXIS = 336;
-  const sx = (v) => X0 + (v / SPEEDUP_AXIS_MAX) * (X1 - X0);
+function work(t) {
+  const TOP = 96;
+  const ROW = 48;
+  const RAIL = 676;
+  const H = TOP + WORK.length * ROW + 18;
   const parts = [];
 
   parts.push(
-    text("Measured speedup", {
-      x: 28,
-      y: 44,
-      class: "s",
-      "font-size": 19,
-      "font-weight": 600,
-      fill: t.ink,
-    }),
+    panelHead(
+      t,
+      "Selected work",
+      `${WORK.length} of ${WORK_TOTAL} — each carries the number it was measured by`,
+    ),
   );
   parts.push(
-    text("each result against the serial or FP32 baseline it replaced · 1.0× is the baseline", {
-      x: 28,
-      y: 67,
-      class: "m",
-      "font-size": 11.5,
-      fill: t.faint,
-    }),
+    line({ x1: RAIL, y1: TOP - 8, x2: RAIL, y2: H - 16, stroke: t.hairline, "stroke-width": 1 }),
   );
 
-  for (let v = 0; v <= 6; v += 1) {
-    parts.push(line({ x1: sx(v), y1: TOP - 6, x2: sx(v), y2: AXIS, stroke: t.grid, "stroke-width": 1 }));
+  WORK.forEach((item, i) => {
+    const y = TOP + i * ROW;
+    const tone = t.tone[item.tone];
+
+    if (i > 0) {
+      parts.push(line({ x1: 28, y1: y - 6, x2: W - 28, y2: y - 6, stroke: t.grid, "stroke-width": 1 }));
+    }
+    parts.push(rect({ x: 28, y: y + 4, width: 3, height: 28, rx: 1.5, fill: tone }));
     parts.push(
-      text(`${v}×`, {
-        x: sx(v),
-        y: 354,
-        class: "m",
-        "font-size": 10.5,
-        fill: t.faint,
-        "text-anchor": "middle",
-      }),
+      text(item.name, { x: 44, y: y + 18, class: "s", "font-size": 14.5, "font-weight": 600, fill: t.ink }),
     );
-  }
-  parts.push(line({ x1: X0, y1: AXIS, x2: X1, y2: AXIS, stroke: t.hairline, "stroke-width": 1 }));
-  parts.push(
-    line({
-      x1: sx(1),
-      y1: TOP - 6,
-      x2: sx(1),
-      y2: AXIS,
-      stroke: t.graphite,
-      "stroke-width": 1,
-      "stroke-dasharray": "3 3",
-    }),
-  );
-  parts.push(
-    text("baseline", { x: sx(1) + 7, y: TOP - 12, class: "m", "font-size": 10, fill: t.graphite }),
-  );
+    parts.push(text(item.blurb, { x: 44, y: y + 34, class: "m", "font-size": 10.5, fill: t.faint }));
 
-  const bars = [];
-  const labels = [];
-  SPEEDUPS.forEach((d, i) => {
-    const rowTop = TOP + i * ROW;
-    const y = rowTop + 6;
-    const w = sx(d.value) - X0;
-    const r = 4;
-    parts.push(text(d.name, { x: 28, y: rowTop + 16, class: "s", "font-size": 14, fill: t.ink }));
-    parts.push(text(d.method, { x: 28, y: rowTop + 32, class: "m", "font-size": 10.5, fill: t.faint }));
-    bars.push(
-      path({
-        d:
-          `M${X0},${y} H${X0 + w - r} Q${X0 + w},${y} ${X0 + w},${y + r} ` +
-          `V${y + BAR - r} Q${X0 + w},${y + BAR} ${X0 + w - r},${y + BAR} H${X0} Z`,
-        fill: t.tone.thermal,
-      }),
-    );
-    labels.push(
-      text(`${d.value.toFixed(1)}×`, {
-        x: X0 + w + 12,
-        y: y + 15,
+    parts.push(
+      text(item.value, {
+        x: 700,
+        y: y + 20,
         class: "m",
-        "font-size": 15,
+        "font-size": 19,
         "font-weight": 600,
-        fill: t.ink,
+        fill: tone,
       }),
     );
+    parts.push(text(item.note, { x: 700, y: y + 35, class: "m", "font-size": 10, fill: t.faint }));
   });
 
-  parts.push(`<g class="bars">${bars.join("")}</g>`);
-  parts.push(`<g class="vals">${labels.join("")}</g>`);
-
-  // Static by default; motion only where the reader has not asked against it.
-  const extraCss = `  @media (prefers-reduced-motion: no-preference){
-    .bars{transform-origin:${X0}px 0;animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
-    .vals{animation:fade .5s ease-out .55s both}
-    @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
-    @keyframes fade{from{opacity:0}to{opacity:1}}
-  }`;
-
-  return doc({ w: W, h: H, theme: t, body: parts.join("\n"), extraCss });
+  return doc({ w: W, h: H, theme: t, body: parts.join("\n") });
 }
 
 // -- 3. functional block diagram ----------------------------------------------
 
 function blocks(t) {
-  const W = 1000;
-  const H = 492;
   const IN_X = 28;
   const IN_W = 240;
   const CORE_X = 300;
   const CORE_W = 360;
   const OUT_X = 700;
   const OUT_W = 272;
-  const TOP = 118;
-  const ROW = 78;
-  const BH = 66;
+  const TOP = 104;
+  const ROW = 68;
+  const BH = 56;
+  const H = 424;
   const parts = [];
 
   parts.push(
-    text("Functional blocks", {
-      x: 28,
-      y: 44,
-      class: "s",
-      "font-size": 19,
-      "font-weight": 600,
-      fill: t.ink,
-    }),
-  );
-  parts.push(
-    text("what goes in, what comes back, and the loop that closes every one of them", {
-      x: 28,
-      y: 67,
-      class: "m",
-      "font-size": 11.5,
-      fill: t.faint,
-    }),
+    panelHead(t, "What I do", "what goes in, what comes back, and the loop that closes every one"),
   );
 
   [
@@ -409,7 +344,7 @@ function blocks(t) {
     ["RETURNS", OUT_X],
   ].forEach(([label, x]) => {
     parts.push(
-      text(label, { x, y: 100, class: "m", "font-size": 10, "letter-spacing": 1.4, fill: t.faint }),
+      text(label, { x, y: 90, class: "m", "font-size": 10, "letter-spacing": 1.4, fill: t.faint }),
     );
   });
 
@@ -435,7 +370,7 @@ function blocks(t) {
     parts.push(
       text(b.title, {
         x: CORE_X + 20,
-        y: y + 28,
+        y: y + 24,
         class: "m",
         "font-size": 12.5,
         "font-weight": 600,
@@ -444,7 +379,7 @@ function blocks(t) {
       }),
     );
     parts.push(
-      text(b.stack, { x: CORE_X + 20, y: y + 48, class: "m", "font-size": 10.5, fill: t.graphite }),
+      text(b.stack, { x: CORE_X + 20, y: y + 42, class: "m", "font-size": 10.5, fill: t.graphite }),
     );
 
     parts.push(
@@ -457,7 +392,7 @@ function blocks(t) {
   });
 
   // The feedback bus: a result routes back into the block that produced it.
-  const busY = 446;
+  const busY = 388;
   const bottom = TOP + 3 * ROW + BH;
   const fromX = 836;
   const toX = 148;
@@ -497,9 +432,8 @@ function blocks(t) {
 // -- 4. console ---------------------------------------------------------------
 
 function consolePanel(t) {
-  const W = 1000;
   const LH = 21.5;
-  const TOP = 70;
+  const TOP = 68;
   const H = Math.round(TOP + CONSOLE.length * LH + 18);
   const parts = [];
 
@@ -540,18 +474,80 @@ function consolePanel(t) {
         }),
       );
       parts.push(text(l.text, { x: 152, y, class: "m", "font-size": 13, fill: t.graphite }));
-    } else if (l.k === "num") {
-      parts.push(text(l.n, { x: 48, y, class: "m", "font-size": 13, fill: t.tone.thermal }));
-      parts.push(text(l.text, { x: 72, y, class: "m", "font-size": 13, fill: t.graphite }));
     }
   });
 
   return doc({ w: W, h: H, theme: t, body: parts.join("\n") });
 }
 
+// -- 5. the one exit ----------------------------------------------------------
+
+function cta(t) {
+  const H = 104;
+  const parts = [];
+
+  // Thermal is the primary-action colour, and this is the only action.
+  parts.push(
+    path({
+      d: `M6,0.5 H3.5 A3,3 0 0 0 0.5,3.5 V${H - 3.5} A3,3 0 0 0 3.5,${H - 0.5} H6 Z`,
+      fill: t.tone.thermal,
+    }),
+  );
+  parts.push(rect({ x: 0.5, y: 0.5, width: 5.5, height: H - 1, fill: t.tone.thermal }));
+
+  parts.push(
+    text(CTA.label, {
+      x: 34,
+      y: 38,
+      class: "m",
+      "font-size": 10.5,
+      "letter-spacing": 1.6,
+      "font-weight": 600,
+      fill: t.tone.thermal,
+    }),
+  );
+  parts.push(
+    text(CTA.target, {
+      x: 34,
+      y: 70,
+      class: "s",
+      "font-size": 25,
+      "font-weight": 700,
+      "letter-spacing": 0.5,
+      fill: t.ink,
+    }),
+  );
+  parts.push(
+    text(CTA.detail, {
+      x: W - 58,
+      y: 62,
+      class: "m",
+      "font-size": 11,
+      fill: t.graphite,
+      "text-anchor": "end",
+    }),
+  );
+  parts.push(
+    path({
+      d: `M${W - 44},52 h18 m-6,-6 l6,6 l-6,6`,
+      fill: "none",
+      stroke: t.tone.thermal,
+      "stroke-width": 2,
+      "stroke-linecap": "round",
+      "stroke-linejoin": "round",
+    }),
+  );
+
+  return doc({ w: W, h: H, theme: t, body: parts.join("\n") });
+}
+
 // -- write --------------------------------------------------------------------
 
-const ASSETS = { header, speedup, blocks, console: consolePanel };
+const ASSETS = { header, work, blocks, console: consolePanel, cta };
+
+const EXPECTED = new Set(
+  Object.keys(ASSETS).flatMap((n) => [`${n}-light.svg`, `${n}-dark.svg`]),
+);
 
 mkdirSync(OUT, { recursive: true });
 let stale = 0;
@@ -575,6 +571,19 @@ for (const [name, build] of Object.entries(ASSETS)) {
       writeFileSync(file, next, "utf8");
       console.log(`assets/${name}-${mode}.svg  ${next.length} bytes`);
     }
+  }
+}
+
+// A panel that stops being generated must not linger in the repo as a file the
+// README no longer references.
+for (const file of readdirSync(OUT)) {
+  if (!file.endsWith(".svg") || EXPECTED.has(file)) continue;
+  if (CHECK) {
+    stale += 1;
+    console.error(`orphan: assets/${file}`);
+  } else {
+    unlinkSync(join(OUT, file));
+    console.log(`removed orphan assets/${file}`);
   }
 }
 

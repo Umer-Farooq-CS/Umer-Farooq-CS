@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="402" viewBox="0 0 1000 402" role="img">
+<style>
+  .m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+
+</style>
+<rect x="0.5" y="0.5" width="999" height="401" rx="9" fill="#0A0D10" stroke="#262B31"/>
+<text x="28" y="44" class="s" font-size="19" font-weight="600" fill="#E7E9EC">Selected work</text>
+<text x="28" y="67" class="m" font-size="11.5" fill="#7D858E">6 of 30 — each carries the number it was measured by</text>
+<line x1="676" y1="88" x2="676" y2="386" stroke="#262B31" stroke-width="1"/>
+<rect x="28" y="100" width="3" height="28" rx="1.5" fill="#1E9CC2"/>
+<text x="44" y="114" class="s" font-size="14.5" font-weight="600" fill="#E7E9EC">QCanvas</text>
+<text x="44" y="130" class="m" font-size="10.5" fill="#7D858E">One interface across Cirq, Qiskit and PennyLane, Kubernetes scheduling the jobs.</text>
+<text x="700" y="116" class="m" font-size="19" font-weight="600" fill="#1E9CC2">3rd</text>
+<text x="700" y="131" class="m" font-size="10" fill="#7D858E">Huawei ICT national finals</text>
+<line x1="28" y1="138" x2="972" y2="138" stroke="#1B2026" stroke-width="1"/>
+<rect x="28" y="148" width="3" height="28" rx="1.5" fill="#8A63E0"/>
+<text x="44" y="162" class="s" font-size="14.5" font-weight="600" fill="#E7E9EC">Cirq-RAG Code Assistant</text>
+<text x="44" y="178" class="m" font-size="10.5" fill="#7D858E">Prompts to executable circuits, through a loop that runs the code and repairs it.</text>
+<text x="700" y="164" class="m" font-size="19" font-weight="600" fill="#8A63E0">92%</text>
+<text x="700" y="179" class="m" font-size="10" fill="#7D858E">vs 52% single-agent baseline</text>
+<line x1="28" y1="186" x2="972" y2="186" stroke="#1B2026" stroke-width="1"/>
+<rect x="28" y="196" width="3" height="28" rx="1.5" fill="#E8571E"/>
+<text x="44" y="210" class="s" font-size="14.5" font-weight="600" fill="#E7E9EC">MNIST on GPU</text>
+<text x="44" y="226" class="m" font-size="10.5" fill="#7D858E">Five versions, serial CPU through Tensor Cores, each one profiled not guessed.</text>
+<text x="700" y="212" class="m" font-size="19" font-weight="600" fill="#E8571E">6.0×</text>
+<text x="700" y="227" class="m" font-size="10" fill="#7D858E">inference, accuracy held at 99%+</text>
+<line x1="28" y1="234" x2="972" y2="234" stroke="#1B2026" stroke-width="1"/>
+<rect x="28" y="244" width="3" height="28" rx="1.5" fill="#E8571E"/>
+<text x="44" y="258" class="s" font-size="14.5" font-weight="600" fill="#E7E9EC">Q-Tensor</text>
+<text x="44" y="274" class="m" font-size="10.5" fill="#7D858E">Tensor networks split across MPI ranks with METIS, contracted on the GPU.</text>
+<text x="700" y="260" class="m" font-size="19" font-weight="600" fill="#E8571E">20+</text>
+<text x="700" y="275" class="m" font-size="10" fill="#7D858E">qubit circuits simulated</text>
+<line x1="28" y1="282" x2="972" y2="282" stroke="#1B2026" stroke-width="1"/>
+<rect x="28" y="292" width="3" height="28" rx="1.5" fill="#E8571E"/>
+<text x="44" y="306" class="s" font-size="14.5" font-weight="600" fill="#E7E9EC">Canny edge detector</text>
+<text x="44" y="322" class="m" font-size="10.5" fill="#7D858E">The whole pipeline in CUDA — tiled shared memory, coalesced access.</text>
+<text x="700" y="308" class="m" font-size="19" font-weight="600" fill="#E8571E">3.5×</text>
+<text x="700" y="323" class="m" font-size="10" fill="#7D858E">over sequential CPU</text>
+<line x1="28" y1="330" x2="972" y2="330" stroke="#1B2026" stroke-width="1"/>
+<rect x="28" y="340" width="3" height="28" rx="1.5" fill="#37A85F"/>
+<text x="44" y="354" class="s" font-size="14.5" font-weight="600" fill="#E7E9EC">Ring DHT with IPFS</text>
+<text x="44" y="370" class="m" font-size="10.5" fill="#7D858E">Chord ring over 160-bit SHA-1, replicated so lookups survive nodes leaving.</text>
+<text x="700" y="356" class="m" font-size="19" font-weight="600" fill="#37A85F">O(log N)</text>
+<text x="700" y="371" class="m" font-size="10" fill="#7D858E">finger-table routing</text>
+</svg>

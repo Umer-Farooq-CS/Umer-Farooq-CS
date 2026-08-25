@@ -2,8 +2,10 @@
 //
 // Every number here is a measured result from a real project, carried over from
 // the portfolio's data layer (portfolio/src/data/*.ts) rather than restated by
-// hand. If a figure changes there, change it here and re-run build-assets.mjs —
-// the README's tables read the same values, so the two cannot drift silently.
+// hand. If a figure changes there, change it here and re-run build-assets.mjs.
+//
+// The README is deliberately short — identity, proof, what I do, how to start,
+// one exit. Anything that wants a table belongs on the portfolio, not here.
 
 export const REV = "2026.08";
 
@@ -13,9 +15,10 @@ export const IDENTITY = {
   domains: "HPC · GPU · quantum simulation · verified AI",
   part: "UF-2026-CS",
   location: "Islamabad, PKT (UTC+5)",
-  process: "FAST-NUCES · BS Computer Science · 2022–2026",
+  process: "FAST-NUCES · BS CS 2022–26",
   status: "OPEN TO WORK",
   email: "umerfarooqcs0891@gmail.com",
+  site: "umerfarooqcs.me",
 };
 
 // The four figures the header leads with. Each pairs a value with the method
@@ -27,18 +30,54 @@ export const RATINGS = [
   { value: "100+", label: "PROJECTS DELIVERED", note: "98% satisfaction, Fiverr L2", tone: "systems" },
 ];
 
-// One measure, one unit, one hue: speedup against the baseline each replaced.
-// Mixing accuracy percentages into this chart would put two scales on one axis,
-// so accuracy lives in its own table in the README instead.
-export const SPEEDUPS = [
-  { name: "MNIST inference", value: 6.0, method: "CUDA streams, kernel fusion, FP16 Tensor Cores", repo: "MNIST-Classification" },
-  { name: "Canny edge detection", value: 3.5, method: "tiled shared memory, coalesced access", repo: "Canny-Edge-Detector" },
-  { name: "RNN training", value: 3.5, method: "automatic mixed precision, GPU-resident data", repo: "RNN-Character-Level-Text-Generation" },
-  { name: "DiT training", value: 1.3, method: "REG/REPA vs a U-Net diffusion baseline", repo: null },
-  { name: "2D render loop", value: 1.3, method: "hand-written physics and collision, SFML", repo: null },
+// Six of thirty. Chosen to cover the range — quantum, AI, GPU, HPC, systems —
+// and because each one has a number attached. The other 24 are on the site.
+export const WORK = [
+  {
+    name: "QCanvas",
+    blurb: "One interface across Cirq, Qiskit and PennyLane, Kubernetes scheduling the jobs.",
+    value: "3rd",
+    note: "Huawei ICT national finals",
+    tone: "cryo",
+  },
+  {
+    name: "Cirq-RAG Code Assistant",
+    blurb: "Prompts to executable circuits, through a loop that runs the code and repairs it.",
+    value: "92%",
+    note: "vs 52% single-agent baseline",
+    tone: "neural",
+  },
+  {
+    name: "MNIST on GPU",
+    blurb: "Five versions, serial CPU through Tensor Cores, each one profiled not guessed.",
+    value: "6.0×",
+    note: "inference, accuracy held at 99%+",
+    tone: "thermal",
+  },
+  {
+    name: "Q-Tensor",
+    blurb: "Tensor networks split across MPI ranks with METIS, contracted on the GPU.",
+    value: "20+",
+    note: "qubit circuits simulated",
+    tone: "thermal",
+  },
+  {
+    name: "Canny edge detector",
+    blurb: "The whole pipeline in CUDA — tiled shared memory, coalesced access.",
+    value: "3.5×",
+    note: "over sequential CPU",
+    tone: "thermal",
+  },
+  {
+    name: "Ring DHT with IPFS",
+    blurb: "Chord ring over 160-bit SHA-1, replicated so lookups survive nodes leaving.",
+    value: "O(log N)",
+    note: "finger-table routing",
+    tone: "systems",
+  },
 ];
 
-export const SPEEDUP_AXIS_MAX = 6.5;
+export const WORK_TOTAL = 30;
 
 // The functional block diagram: four capabilities, each with the input it takes
 // and the artefact it returns. The feedback bus underneath is the actual thesis.
@@ -86,8 +125,6 @@ export const CONSOLE = [
   { k: "out", text: "umer — hand me a system that is too slow, too unreliable," },
   { k: "out", text: "       or not built yet." },
   { k: "blank" },
-  { k: "dim", text: "usage: umer <problem> [--constraints] [--deadline]" },
-  { k: "blank" },
   { k: "dim", text: "problems" },
   { k: "key", key: "gpu-kernel", text: "my GPU kernel is slower than it should be", tone: "thermal" },
   { k: "key", key: "parallelise", text: "this job takes hours and I need it to take minutes", tone: "thermal" },
@@ -96,13 +133,15 @@ export const CONSOLE = [
   { k: "key", key: "build-it", text: "I need the whole thing built, not just the fast part", tone: "interface" },
   { k: "key", key: "review", text: "check our architecture before we commit to it", tone: "systems" },
   { k: "blank" },
-  { k: "cmd", text: "umer gpu-kernel --what-i-get" },
-  { k: "num", n: "1", text: "an Nsight profile with the bottleneck named, not guessed" },
-  { k: "num", n: "2", text: "an optimised kernel, with before and after timings" },
-  { k: "num", n: "3", text: "what to do next — and what is not worth doing" },
-  { k: "blank" },
   { k: "cmd", text: "umer --status" },
   { k: "key", key: "available", text: "internships · contract · research collaboration", tone: "systems" },
-  { k: "key", key: "timezone", text: "Asia/Karachi (UTC+5) — replies inside 24h" },
+  { k: "key", key: "reply", text: "under 24h, from Islamabad (UTC+5)" },
   { k: "key", key: "contact", text: IDENTITY.email, tone: "thermal" },
 ];
+
+// The single exit. One destination, made to look like the button it is.
+export const CTA = {
+  label: "SEE THE FULL WORK",
+  target: IDENTITY.site,
+  detail: `${WORK_TOTAL} projects · runnable demos · live CV · three ways to read the same work`,
+};

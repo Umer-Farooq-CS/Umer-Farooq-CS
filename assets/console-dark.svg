@@ -1,47 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="583" viewBox="0 0 1000 583" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" role="img">
 <style>
   .m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
   .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 
 </style>
-<rect x="0.5" y="0.5" width="999" height="582" rx="9" fill="#0A0D10" stroke="#262B31"/>
+<rect x="0.5" y="0.5" width="999" height="429" rx="9" fill="#0A0D10" stroke="#262B31"/>
 <line x1="0" y1="42" x2="1000" y2="42" stroke="#262B31" stroke-width="1"/>
 <rect x="28" y="18" width="7" height="7" fill="#37A85F"/>
 <text x="46" y="25" class="m" font-size="11" fill="#9AA1A9">umer@bench — sh</text>
 <text x="972" y="25" class="m" font-size="11" fill="#7D858E" text-anchor="end">Islamabad, PKT (UTC+5)</text>
-<text x="28" y="70" class="m" font-size="13" fill="#E8571E">$</text>
-<text x="48" y="70" class="m" font-size="13" fill="#E7E9EC" font-weight="600">umer --help</text>
-<text x="48" y="91.5" class="m" font-size="13" fill="#9AA1A9">umer — hand me a system that is too slow, too unreliable,</text>
-<text x="48" y="113" class="m" font-size="13" fill="#9AA1A9">       or not built yet.</text>
-<text x="28" y="156" class="m" font-size="12.5" fill="#7D858E">usage: umer &lt;problem&gt; [--constraints] [--deadline]</text>
-<text x="28" y="199" class="m" font-size="12.5" fill="#7D858E">problems</text>
-<text x="48" y="220.5" class="m" font-size="13" fill="#E8571E" font-weight="600">gpu-kernel</text>
-<text x="152" y="220.5" class="m" font-size="13" fill="#9AA1A9">my GPU kernel is slower than it should be</text>
-<text x="48" y="242" class="m" font-size="13" fill="#E8571E" font-weight="600">parallelise</text>
-<text x="152" y="242" class="m" font-size="13" fill="#9AA1A9">this job takes hours and I need it to take minutes</text>
-<text x="48" y="263.5" class="m" font-size="13" fill="#1E9CC2" font-weight="600">quantum-sim</text>
-<text x="152" y="263.5" class="m" font-size="13" fill="#9AA1A9">I need to simulate or compare quantum circuits</text>
-<text x="48" y="285" class="m" font-size="13" fill="#8A63E0" font-weight="600">verify-ai</text>
-<text x="152" y="285" class="m" font-size="13" fill="#9AA1A9">my AI system is confidently wrong</text>
-<text x="48" y="306.5" class="m" font-size="13" fill="#3B82F6" font-weight="600">build-it</text>
-<text x="152" y="306.5" class="m" font-size="13" fill="#9AA1A9">I need the whole thing built, not just the fast part</text>
-<text x="48" y="328" class="m" font-size="13" fill="#37A85F" font-weight="600">review</text>
-<text x="152" y="328" class="m" font-size="13" fill="#9AA1A9">check our architecture before we commit to it</text>
-<text x="28" y="371" class="m" font-size="13" fill="#E8571E">$</text>
-<text x="48" y="371" class="m" font-size="13" fill="#E7E9EC" font-weight="600">umer gpu-kernel --what-i-get</text>
-<text x="48" y="392.5" class="m" font-size="13" fill="#E8571E">1</text>
-<text x="72" y="392.5" class="m" font-size="13" fill="#9AA1A9">an Nsight profile with the bottleneck named, not guessed</text>
-<text x="48" y="414" class="m" font-size="13" fill="#E8571E">2</text>
-<text x="72" y="414" class="m" font-size="13" fill="#9AA1A9">an optimised kernel, with before and after timings</text>
-<text x="48" y="435.5" class="m" font-size="13" fill="#E8571E">3</text>
-<text x="72" y="435.5" class="m" font-size="13" fill="#9AA1A9">what to do next — and what is not worth doing</text>
-<text x="28" y="478.5" class="m" font-size="13" fill="#E8571E">$</text>
-<text x="48" y="478.5" class="m" font-size="13" fill="#E7E9EC" font-weight="600">umer --status</text>
-<text x="48" y="500" class="m" font-size="13" fill="#37A85F" font-weight="600">available</text>
-<text x="152" y="500" class="m" font-size="13" fill="#9AA1A9">internships · contract · research collaboration</text>
-<text x="48" y="521.5" class="m" font-size="13" fill="#9AA1A9" font-weight="600">timezone</text>
-<text x="152" y="521.5" class="m" font-size="13" fill="#9AA1A9">Asia/Karachi (UTC+5) — replies inside 24h</text>
-<text x="48" y="543" class="m" font-size="13" fill="#E8571E" font-weight="600">contact</text>
-<text x="152" y="543" class="m" font-size="13" fill="#9AA1A9">umerfarooqcs0891@gmail.com</text>
+<text x="28" y="68" class="m" font-size="13" fill="#E8571E">$</text>
+<text x="48" y="68" class="m" font-size="13" fill="#E7E9EC" font-weight="600">umer --help</text>
+<text x="48" y="89.5" class="m" font-size="13" fill="#9AA1A9">umer — hand me a system that is too slow, too unreliable,</text>
+<text x="48" y="111" class="m" font-size="13" fill="#9AA1A9">       or not built yet.</text>
+<text x="28" y="154" class="m" font-size="12.5" fill="#7D858E">problems</text>
+<text x="48" y="175.5" class="m" font-size="13" fill="#E8571E" font-weight="600">gpu-kernel</text>
+<text x="152" y="175.5" class="m" font-size="13" fill="#9AA1A9">my GPU kernel is slower than it should be</text>
+<text x="48" y="197" class="m" font-size="13" fill="#E8571E" font-weight="600">parallelise</text>
+<text x="152" y="197" class="m" font-size="13" fill="#9AA1A9">this job takes hours and I need it to take minutes</text>
+<text x="48" y="218.5" class="m" font-size="13" fill="#1E9CC2" font-weight="600">quantum-sim</text>
+<text x="152" y="218.5" class="m" font-size="13" fill="#9AA1A9">I need to simulate or compare quantum circuits</text>
+<text x="48" y="240" class="m" font-size="13" fill="#8A63E0" font-weight="600">verify-ai</text>
+<text x="152" y="240" class="m" font-size="13" fill="#9AA1A9">my AI system is confidently wrong</text>
+<text x="48" y="261.5" class="m" font-size="13" fill="#3B82F6" font-weight="600">build-it</text>
+<text x="152" y="261.5" class="m" font-size="13" fill="#9AA1A9">I need the whole thing built, not just the fast part</text>
+<text x="48" y="283" class="m" font-size="13" fill="#37A85F" font-weight="600">review</text>
+<text x="152" y="283" class="m" font-size="13" fill="#9AA1A9">check our architecture before we commit to it</text>
+<text x="28" y="326" class="m" font-size="13" fill="#E8571E">$</text>
+<text x="48" y="326" class="m" font-size="13" fill="#E7E9EC" font-weight="600">umer --status</text>
+<text x="48" y="347.5" class="m" font-size="13" fill="#37A85F" font-weight="600">available</text>
+<text x="152" y="347.5" class="m" font-size="13" fill="#9AA1A9">internships · contract · research collaboration</text>
+<text x="48" y="369" class="m" font-size="13" fill="#9AA1A9" font-weight="600">reply</text>
+<text x="152" y="369" class="m" font-size="13" fill="#9AA1A9">under 24h, from Islamabad (UTC+5)</text>
+<text x="48" y="390.5" class="m" font-size="13" fill="#E8571E" font-weight="600">contact</text>
+<text x="152" y="390.5" class="m" font-size="13" fill="#9AA1A9">umerfarooqcs0891@gmail.com</text>
 </svg>

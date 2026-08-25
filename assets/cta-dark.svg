@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="104" viewBox="0 0 1000 104" role="img">
+<style>
+  .m{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace}
+  .s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+
+</style>
+<rect x="0.5" y="0.5" width="999" height="103" rx="9" fill="#0A0D10" stroke="#262B31"/>
+<path d="M6,0.5 H3.5 A3,3 0 0 0 0.5,3.5 V100.5 A3,3 0 0 0 3.5,103.5 H6 Z" fill="#E8571E"/>
+<rect x="0.5" y="0.5" width="5.5" height="103" fill="#E8571E"/>
+<text x="34" y="38" class="m" font-size="10.5" letter-spacing="1.6" font-weight="600" fill="#E8571E">SEE THE FULL WORK</text>
+<text x="34" y="70" class="s" font-size="25" font-weight="700" letter-spacing="0.5" fill="#E7E9EC">umerfarooqcs.me</text>
+<text x="942" y="62" class="m" font-size="11" fill="#9AA1A9" text-anchor="end">30 projects · runnable demos · live CV · three ways to read the same work</text>
+<path d="M956,52 h18 m-6,-6 l6,6 l-6,6" fill="none" stroke="#E8571E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
